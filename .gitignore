@@ -1,0 +1,4 @@
+node_modules/
+timing/
+out/
+*.pyc
