@@ -1,0 +1,826 @@
+[
+ {
+  "text": "For",
+  "startMs": 120,
+  "endMs": 280,
+  "timestampMs": 200,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 280,
+  "endMs": 650,
+  "timestampMs": 465,
+  "confidence": null
+ },
+ {
+  "text": " years,",
+  "startMs": 650,
+  "endMs": 1310,
+  "timestampMs": 980,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 1613,
+  "endMs": 1930,
+  "timestampMs": 1771,
+  "confidence": null
+ },
+ {
+  "text": " sentence",
+  "startMs": 1930,
+  "endMs": 2530,
+  "timestampMs": 2230,
+  "confidence": null
+ },
+ {
+  "text": " could",
+  "startMs": 2530,
+  "endMs": 2680,
+  "timestampMs": 2605,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 2680,
+  "endMs": 2820,
+  "timestampMs": 2750,
+  "confidence": null
+ },
+ {
+  "text": " destroyed",
+  "startMs": 2820,
+  "endMs": 3530,
+  "timestampMs": 3175,
+  "confidence": null
+ },
+ {
+  "text": " Islam.",
+  "startMs": 3530,
+  "endMs": 3990,
+  "timestampMs": 3760,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " In",
+  "startMs": 4610,
+  "endMs": 4740,
+  "timestampMs": 4675,
+  "confidence": null
+ },
+ {
+  "text": " Mecca,",
+  "startMs": 4740,
+  "endMs": 5370,
+  "timestampMs": 5055,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 5680,
+  "endMs": 5720,
+  "timestampMs": 5700,
+  "confidence": null
+ },
+ {
+  "text": " revelation",
+  "startMs": 5720,
+  "endMs": 6440,
+  "timestampMs": 6080,
+  "confidence": null
+ },
+ {
+  "text": " declared",
+  "startMs": 6440,
+  "endMs": 6950,
+  "timestampMs": 6695,
+  "confidence": null
+ },
+ {
+  "text": " that",
+  "startMs": 6950,
+  "endMs": 7080,
+  "timestampMs": 7015,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 7080,
+  "endMs": 7150,
+  "timestampMs": 7115,
+  "confidence": null
+ },
+ {
+  "text": " Prophet's",
+  "startMs": 7150,
+  "endMs": 7710,
+  "timestampMs": 7430,
+  "confidence": null
+ },
+ {
+  "text": " fiercest",
+  "startMs": 7710,
+  "endMs": 8390,
+  "timestampMs": 8050,
+  "confidence": null
+ },
+ {
+  "text": " enemy,",
+  "startMs": 8390,
+  "endMs": 8864,
+  "timestampMs": 8627,
+  "confidence": null
+ },
+ {
+  "text": " Abu",
+  "startMs": 9020,
+  "endMs": 9260,
+  "timestampMs": 9140,
+  "confidence": null
+ },
+ {
+  "text": " Lahab,",
+  "startMs": 9260,
+  "endMs": 9880,
+  "timestampMs": 9570,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 9992,
+  "endMs": 10110,
+  "timestampMs": 10051,
+  "confidence": null
+ },
+ {
+  "text": " burn",
+  "startMs": 10110,
+  "endMs": 10590,
+  "timestampMs": 10350,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 10590,
+  "endMs": 10810,
+  "timestampMs": 10700,
+  "confidence": null
+ },
+ {
+  "text": " blazing",
+  "startMs": 10810,
+  "endMs": 11330,
+  "timestampMs": 11070,
+  "confidence": null
+ },
+ {
+  "text": " fire.",
+  "startMs": 11330,
+  "endMs": 11874,
+  "timestampMs": 11602,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " He",
+  "startMs": 12385,
+  "endMs": 12490,
+  "timestampMs": 12437,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 12490,
+  "endMs": 12680,
+  "timestampMs": 12585,
+  "confidence": null
+ },
+ {
+  "text": " condemned",
+  "startMs": 12680,
+  "endMs": 13260,
+  "timestampMs": 12970,
+  "confidence": null
+ },
+ {
+  "text": " while",
+  "startMs": 13260,
+  "endMs": 13520,
+  "timestampMs": 13390,
+  "confidence": null
+ },
+ {
+  "text": " still",
+  "startMs": 13520,
+  "endMs": 13810,
+  "timestampMs": 13665,
+  "confidence": null
+ },
+ {
+  "text": " alive.",
+  "startMs": 13810,
+  "endMs": 14350,
+  "timestampMs": 14080,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Abu",
+  "startMs": 14900,
+  "endMs": 15120,
+  "timestampMs": 15010,
+  "confidence": null
+ },
+ {
+  "text": " Lahab",
+  "startMs": 15120,
+  "endMs": 15480,
+  "timestampMs": 15300,
+  "confidence": null
+ },
+ {
+  "text": " lived",
+  "startMs": 15480,
+  "endMs": 15790,
+  "timestampMs": 15635,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 15790,
+  "endMs": 15980,
+  "timestampMs": 15885,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 15980,
+  "endMs": 16340,
+  "timestampMs": 16160,
+  "confidence": null
+ },
+ {
+  "text": " more",
+  "startMs": 16340,
+  "endMs": 16620,
+  "timestampMs": 16480,
+  "confidence": null
+ },
+ {
+  "text": " years.",
+  "startMs": 16620,
+  "endMs": 17220,
+  "timestampMs": 16920,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Over",
+  "startMs": 17661,
+  "endMs": 17900,
+  "timestampMs": 17780,
+  "confidence": null
+ },
+ {
+  "text": " three",
+  "startMs": 17900,
+  "endMs": 18230,
+  "timestampMs": 18065,
+  "confidence": null
+ },
+ {
+  "text": " thousand",
+  "startMs": 18230,
+  "endMs": 18720,
+  "timestampMs": 18475,
+  "confidence": null
+ },
+ {
+  "text": " six",
+  "startMs": 18720,
+  "endMs": 19090,
+  "timestampMs": 18905,
+  "confidence": null
+ },
+ {
+  "text": " hundred",
+  "startMs": 19090,
+  "endMs": 19420,
+  "timestampMs": 19255,
+  "confidence": null
+ },
+ {
+  "text": " days.",
+  "startMs": 19420,
+  "endMs": 19937,
+  "timestampMs": 19679,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " He",
+  "startMs": 20390,
+  "endMs": 20500,
+  "timestampMs": 20445,
+  "confidence": null
+ },
+ {
+  "text": " didn't",
+  "startMs": 20500,
+  "endMs": 20730,
+  "timestampMs": 20615,
+  "confidence": null
+ },
+ {
+  "text": " need",
+  "startMs": 20730,
+  "endMs": 20910,
+  "timestampMs": 20820,
+  "confidence": null
+ },
+ {
+  "text": " an",
+  "startMs": 20910,
+  "endMs": 21030,
+  "timestampMs": 20970,
+  "confidence": null
+ },
+ {
+  "text": " army,",
+  "startMs": 21030,
+  "endMs": 21440,
+  "timestampMs": 21235,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 21440,
+  "endMs": 21606,
+  "timestampMs": 21523,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 21930,
+  "endMs": 22040,
+  "timestampMs": 21985,
+  "confidence": null
+ },
+ {
+  "text": " didn't",
+  "startMs": 22040,
+  "endMs": 22310,
+  "timestampMs": 22175,
+  "confidence": null
+ },
+ {
+  "text": " need",
+  "startMs": 22310,
+  "endMs": 22520,
+  "timestampMs": 22415,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 22520,
+  "endMs": 22570,
+  "timestampMs": 22545,
+  "confidence": null
+ },
+ {
+  "text": " sword.",
+  "startMs": 22570,
+  "endMs": 23129,
+  "timestampMs": 22850,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " All",
+  "startMs": 23564,
+  "endMs": 23840,
+  "timestampMs": 23702,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 23840,
+  "endMs": 23990,
+  "timestampMs": 23915,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 23990,
+  "endMs": 24210,
+  "timestampMs": 24100,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 24210,
+  "endMs": 24310,
+  "timestampMs": 24260,
+  "confidence": null
+ },
+ {
+  "text": " do",
+  "startMs": 24310,
+  "endMs": 24670,
+  "timestampMs": 24490,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 24670,
+  "endMs": 24880,
+  "timestampMs": 24775,
+  "confidence": null
+ },
+ {
+  "text": " publicly",
+  "startMs": 24880,
+  "endMs": 25530,
+  "timestampMs": 25205,
+  "confidence": null
+ },
+ {
+  "text": " utter",
+  "startMs": 25530,
+  "endMs": 25770,
+  "timestampMs": 25650,
+  "confidence": null
+ },
+ {
+  "text": " four",
+  "startMs": 25770,
+  "endMs": 26190,
+  "timestampMs": 25980,
+  "confidence": null
+ },
+ {
+  "text": " words,",
+  "startMs": 26190,
+  "endMs": 26834,
+  "timestampMs": 26512,
+  "confidence": null
+ },
+ {
+  "text": " even",
+  "startMs": 27040,
+  "endMs": 27300,
+  "timestampMs": 27170,
+  "confidence": null
+ },
+ {
+  "text": " as",
+  "startMs": 27300,
+  "endMs": 27430,
+  "timestampMs": 27365,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 27430,
+  "endMs": 27470,
+  "timestampMs": 27450,
+  "confidence": null
+ },
+ {
+  "text": " lie:",
+  "startMs": 27470,
+  "endMs": 27943,
+  "timestampMs": 27707,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " I",
+  "startMs": 28450,
+  "endMs": 28800,
+  "timestampMs": 28625,
+  "confidence": null
+ },
+ {
+  "text": " accept",
+  "startMs": 28800,
+  "endMs": 29330,
+  "timestampMs": 29065,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 29330,
+  "endMs": 29440,
+  "timestampMs": 29385,
+  "confidence": null
+ },
+ {
+  "text": " faith.",
+  "startMs": 29440,
+  "endMs": 30010,
+  "timestampMs": 29725,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " The",
+  "startMs": 30414,
+  "endMs": 30500,
+  "timestampMs": 30457,
+  "confidence": null
+ },
+ {
+  "text": " door",
+  "startMs": 30500,
+  "endMs": 31000,
+  "timestampMs": 30750,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 31000,
+  "endMs": 31230,
+  "timestampMs": 31115,
+  "confidence": null
+ },
+ {
+  "text": " wide",
+  "startMs": 31230,
+  "endMs": 31660,
+  "timestampMs": 31445,
+  "confidence": null
+ },
+ {
+  "text": " open.",
+  "startMs": 31660,
+  "endMs": 32080,
+  "timestampMs": 31870,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Yet",
+  "startMs": 32610,
+  "endMs": 32760,
+  "timestampMs": 32685,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 32760,
+  "endMs": 32840,
+  "timestampMs": 32800,
+  "confidence": null
+ },
+ {
+  "text": " man",
+  "startMs": 32840,
+  "endMs": 33140,
+  "timestampMs": 32990,
+  "confidence": null
+ },
+ {
+  "text": " who",
+  "startMs": 33140,
+  "endMs": 33300,
+  "timestampMs": 33220,
+  "confidence": null
+ },
+ {
+  "text": " dedicated",
+  "startMs": 33300,
+  "endMs": 33890,
+  "timestampMs": 33595,
+  "confidence": null
+ },
+ {
+  "text": " his",
+  "startMs": 33890,
+  "endMs": 34080,
+  "timestampMs": 33985,
+  "confidence": null
+ },
+ {
+  "text": " life",
+  "startMs": 34080,
+  "endMs": 34490,
+  "timestampMs": 34285,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 34490,
+  "endMs": 34600,
+  "timestampMs": 34545,
+  "confidence": null
+ },
+ {
+  "text": " defeating",
+  "startMs": 34600,
+  "endMs": 35170,
+  "timestampMs": 34885,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 35170,
+  "endMs": 35240,
+  "timestampMs": 35205,
+  "confidence": null
+ },
+ {
+  "text": " message",
+  "startMs": 35240,
+  "endMs": 35833,
+  "timestampMs": 35536,
+  "confidence": null
+ },
+ {
+  "text": " never",
+  "startMs": 36130,
+  "endMs": 36540,
+  "timestampMs": 36335,
+  "confidence": null
+ },
+ {
+  "text": " walked",
+  "startMs": 36540,
+  "endMs": 36960,
+  "timestampMs": 36750,
+  "confidence": null
+ },
+ {
+  "text": " through",
+  "startMs": 36960,
+  "endMs": 37260,
+  "timestampMs": 37110,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 37260,
+  "endMs": 37427,
+  "timestampMs": 37343,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " An",
+  "startMs": 37897,
+  "endMs": 37990,
+  "timestampMs": 37943,
+  "confidence": null
+ },
+ {
+  "text": " impostor",
+  "startMs": 37990,
+  "endMs": 38630,
+  "timestampMs": 38310,
+  "confidence": null
+ },
+ {
+  "text": " never",
+  "startMs": 38630,
+  "endMs": 39100,
+  "timestampMs": 38865,
+  "confidence": null
+ },
+ {
+  "text": " hands",
+  "startMs": 39100,
+  "endMs": 39390,
+  "timestampMs": 39245,
+  "confidence": null
+ },
+ {
+  "text": " his",
+  "startMs": 39390,
+  "endMs": 39530,
+  "timestampMs": 39460,
+  "confidence": null
+ },
+ {
+  "text": " enemy",
+  "startMs": 39530,
+  "endMs": 39940,
+  "timestampMs": 39735,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 39940,
+  "endMs": 40060,
+  "timestampMs": 40000,
+  "confidence": null
+ },
+ {
+  "text": " key",
+  "startMs": 40060,
+  "endMs": 40420,
+  "timestampMs": 40240,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 40420,
+  "endMs": 40590,
+  "timestampMs": 40505,
+  "confidence": null
+ },
+ {
+  "text": " his",
+  "startMs": 40590,
+  "endMs": 40760,
+  "timestampMs": 40675,
+  "confidence": null
+ },
+ {
+  "text": " own",
+  "startMs": 40760,
+  "endMs": 41030,
+  "timestampMs": 40895,
+  "confidence": null
+ },
+ {
+  "text": " destruction.",
+  "startMs": 41030,
+  "endMs": 41740,
+  "timestampMs": 41385,
+  "confidence": null,
+  "pageBreakAfter": true
+ },
+ {
+  "text": " Because",
+  "startMs": 42225,
+  "endMs": 42520,
+  "timestampMs": 42372,
+  "confidence": null
+ },
+ {
+  "text": " for",
+  "startMs": 42520,
+  "endMs": 42670,
+  "timestampMs": 42595,
+  "confidence": null
+ },
+ {
+  "text": " ten",
+  "startMs": 42670,
+  "endMs": 42990,
+  "timestampMs": 42830,
+  "confidence": null
+ },
+ {
+  "text": " years,",
+  "startMs": 42990,
+  "endMs": 43612,
+  "timestampMs": 43301,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 43869,
+  "endMs": 44170,
+  "timestampMs": 44020,
+  "confidence": null
+ },
+ {
+  "text": " sentence",
+  "startMs": 44170,
+  "endMs": 44770,
+  "timestampMs": 44470,
+  "confidence": null
+ },
+ {
+  "text": " could",
+  "startMs": 44770,
+  "endMs": 44900,
+  "timestampMs": 44835,
+  "confidence": null
+ },
+ {
+  "text": " have",
+  "startMs": 44900,
+  "endMs": 45030,
+  "timestampMs": 44965,
+  "confidence": null
+ },
+ {
+  "text": " destroyed",
+  "startMs": 45030,
+  "endMs": 45700,
+  "timestampMs": 45365,
+  "confidence": null
+ },
+ {
+  "text": " Islam.",
+  "startMs": 45700,
+  "endMs": 46160,
+  "timestampMs": 45930,
+  "confidence": null,
+  "pageBreakAfter": true
+ }
+]

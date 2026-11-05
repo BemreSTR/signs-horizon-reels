@@ -1,7 +1,7 @@
 # Çalışma notları
 - Konuşma Türkçe; videodaki metin ve ses İngilizce. Kurallar projedeki dokümanlarda; burada tekrarlama.
 - Cue zamanları `public/ep/<id>/cues.json` (ses ana saat). Animasyon yalnızca kare/zamandan türer (CSS geçişi yok).
-- Teslim: `out/<ID>.mp4`, `captions.srt`, `kapak1–3.png` (SendUserFile). Kaynak kod bu depoda kalır, commit/push önce sorulmaz değil: iş bitince push et.
+- Teslim: `out/<ID>.mp4`, `captions.srt`, `kapak1–3.png` (SendUserFile). Kaynak kod bu depoda kalır; iş bitince commit + push et (geçici ortam silinir).
 - Render: `tools/render.sh`, master: `tools/master.py`. Kontrol: bozuk kare taraması, döngü dikişi, `mix_report.py`, anahtar karelere bakış.
 
 ## Dersler (E015)

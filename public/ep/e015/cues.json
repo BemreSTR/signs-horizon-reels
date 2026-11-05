@@ -1,0 +1,231 @@
+{
+ "version": 1,
+ "fps": 30,
+ "audioDurationMs": 46446,
+ "cues": {
+  "hook": {
+   "ms": 120,
+   "frame": 4,
+   "anchor": "start",
+   "wordIndex": 0,
+   "word": "For"
+  },
+  "destroyed": {
+   "ms": 2820,
+   "frame": 85,
+   "anchor": "start",
+   "wordIndex": 7,
+   "word": "destroyed"
+  },
+  "mecca": {
+   "ms": 4740,
+   "frame": 142,
+   "anchor": "start",
+   "wordIndex": 10,
+   "word": "Mecca,"
+  },
+  "abu_lahab": {
+   "ms": 9020,
+   "frame": 271,
+   "anchor": "start",
+   "wordIndex": 19,
+   "word": "Abu"
+  },
+  "blazing": {
+   "ms": 10810,
+   "frame": 324,
+   "anchor": "start",
+   "wordIndex": 24,
+   "word": "blazing"
+  },
+  "condemned": {
+   "ms": 12680,
+   "frame": 380,
+   "anchor": "start",
+   "wordIndex": 28,
+   "word": "condemned"
+  },
+  "ten_years": {
+   "ms": 15980,
+   "frame": 479,
+   "anchor": "start",
+   "wordIndex": 36,
+   "word": "ten"
+  },
+  "three_thousand": {
+   "ms": 17900,
+   "frame": 537,
+   "anchor": "start",
+   "wordIndex": 40,
+   "word": "three"
+  },
+  "army": {
+   "ms": 21030,
+   "frame": 631,
+   "anchor": "start",
+   "wordIndex": 49,
+   "word": "army,"
+  },
+  "sword": {
+   "ms": 22570,
+   "frame": 677,
+   "anchor": "start",
+   "wordIndex": 55,
+   "word": "sword."
+  },
+  "four_words": {
+   "ms": 25770,
+   "frame": 773,
+   "anchor": "start",
+   "wordIndex": 64,
+   "word": "four"
+  },
+  "open": {
+   "ms": 31660,
+   "frame": 950,
+   "anchor": "start",
+   "wordIndex": 78,
+   "word": "open."
+  },
+  "defeating": {
+   "ms": 34600,
+   "frame": 1038,
+   "anchor": "start",
+   "wordIndex": 87,
+   "word": "defeating"
+  },
+  "enemy": {
+   "ms": 39530,
+   "frame": 1186,
+   "anchor": "start",
+   "wordIndex": 99,
+   "word": "enemy"
+  },
+  "ten_years_echo": {
+   "ms": 42670,
+   "frame": 1280,
+   "anchor": "start",
+   "wordIndex": 108,
+   "word": "ten"
+  },
+  "i_accept": {
+   "ms": 28450,
+   "frame": 854,
+   "anchor": "start",
+   "wordIndex": 70,
+   "word": "I"
+  },
+  "accept": {
+   "ms": 28800,
+   "frame": 864,
+   "anchor": "start",
+   "wordIndex": 71,
+   "word": "accept"
+  },
+  "your": {
+   "ms": 29330,
+   "frame": 880,
+   "anchor": "start",
+   "wordIndex": 72,
+   "word": "your"
+  },
+  "faith": {
+   "ms": 29440,
+   "frame": 883,
+   "anchor": "start",
+   "wordIndex": 73,
+   "word": "faith."
+  },
+  "door": {
+   "ms": 30500,
+   "frame": 915,
+   "anchor": "start",
+   "wordIndex": 75,
+   "word": "door"
+  },
+  "wide": {
+   "ms": 31230,
+   "frame": 937,
+   "anchor": "start",
+   "wordIndex": 77,
+   "word": "wide"
+  },
+  "never": {
+   "ms": 36130,
+   "frame": 1084,
+   "anchor": "start",
+   "wordIndex": 90,
+   "word": "never"
+  },
+  "impostor": {
+   "ms": 37990,
+   "frame": 1140,
+   "anchor": "start",
+   "wordIndex": 95,
+   "word": "impostor"
+  },
+  "key": {
+   "ms": 40060,
+   "frame": 1202,
+   "anchor": "start",
+   "wordIndex": 101,
+   "word": "key"
+  },
+  "destruction": {
+   "ms": 41030,
+   "frame": 1231,
+   "anchor": "start",
+   "wordIndex": 105,
+   "word": "destruction."
+  },
+  "because": {
+   "ms": 42225,
+   "frame": 1267,
+   "anchor": "start",
+   "wordIndex": 106,
+   "word": "Because"
+  },
+  "final_destroyed": {
+   "ms": 45030,
+   "frame": 1351,
+   "anchor": "start",
+   "wordIndex": 114,
+   "word": "destroyed"
+  },
+  "honest_start": {
+   "ms": 37897,
+   "frame": 1137,
+   "anchor": "start",
+   "wordIndex": 94,
+   "word": "An"
+  },
+  "alive": {
+   "ms": 13810,
+   "frame": 414,
+   "anchor": "start",
+   "wordIndex": 31,
+   "word": "alive."
+  },
+  "lived": {
+   "ms": 15480,
+   "frame": 464,
+   "anchor": "start",
+   "wordIndex": 34,
+   "word": "lived"
+  },
+  "days": {
+   "ms": 19420,
+   "frame": 583,
+   "anchor": "start",
+   "wordIndex": 44,
+   "word": "days."
+  },
+  "utter": {
+   "ms": 25530,
+   "frame": 766,
+   "anchor": "start",
+   "wordIndex": 63,
+   "word": "utter"
+  }
+ }
+}

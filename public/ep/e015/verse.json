@@ -1,0 +1,95 @@
+{
+ "source": "Quran.com API v4 (text_uthmani)",
+ "translationName": "Saheeh International",
+ "verses": {
+  "111:1": {
+   "key": "111:1",
+   "arabic": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+   "words": [
+    "",
+    "تَبَّتْ",
+    "يَدَآ",
+    "أَبِى",
+    "لَهَبٍ",
+    "وَتَبَّ"
+   ],
+   "translation": "May the hands of Abū Lahab be ruined, and ruined is he.",
+   "translationId": 20
+  },
+  "111:2": {
+   "key": "111:2",
+   "arabic": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+   "words": [
+    "مَآ",
+    "أَغْنَىٰ",
+    "عَنْهُ",
+    "مَالُهُۥ",
+    "وَمَا",
+    "كَسَبَ"
+   ],
+   "translation": "His wealth will not avail him or that which he gained.",
+   "translationId": 20
+  },
+  "111:3": {
+   "key": "111:3",
+   "arabic": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+   "words": [
+    "سَيَصْلَىٰ",
+    "نَارًا",
+    "ذَاتَ",
+    "لَهَبٍ"
+   ],
+   "translation": "He will [enter to] burn in a Fire of [blazing] flame",
+   "translationId": 20
+  },
+  "111:4": {
+   "key": "111:4",
+   "arabic": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+   "words": [
+    "وَٱمْرَأَتُهُۥ",
+    "حَمَّالَةَ",
+    "ٱلْحَطَبِ"
+   ],
+   "translation": "And his wife [as well] - the carrier of firewood.",
+   "translationId": 20
+  },
+  "111:5": {
+   "key": "111:5",
+   "arabic": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+   "words": [
+    "فِى",
+    "جِيدِهَا",
+    "حَبْلٌ",
+    "مِّن",
+    "مَّسَدٍۭ"
+   ],
+   "translation": "Around her neck is a rope of [twisted] fiber.",
+   "translationId": 20
+  }
+ },
+ "excerpts": {
+  "decree": {
+   "verse": "111:3",
+   "from": 0,
+   "to": 3,
+   "words": [
+    "سَيَصْلَىٰ",
+    "نَارًا",
+    "ذَاتَ",
+    "لَهَبٍ"
+   ]
+  },
+  "hands": {
+   "verse": "111:1",
+   "from": 1,
+   "to": 5,
+   "words": [
+    "تَبَّتْ",
+    "يَدَآ",
+    "أَبِى",
+    "لَهَبٍ",
+    "وَتَبَّ"
+   ]
+  }
+ }
+}

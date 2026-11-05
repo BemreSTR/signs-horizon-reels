@@ -1,0 +1,28 @@
+{
+  "name": "signs-horizon-reels",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio --no-open",
+    "build": "remotion render"
+  },
+  "dependencies": {
+    "@fontsource/amiri-quran": "^5.3.0",
+    "@fontsource/cormorant-garamond": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@remotion/cli": "^4.0.528",
+    "@remotion/fonts": "^4.0.528",
+    "@remotion/layout-utils": "^4.0.528",
+    "@remotion/media": "^4.0.528",
+    "@remotion/noise": "^4.0.528",
+    "@remotion/transitions": "^4.0.528",
+    "@types/react": "^19.3.0",
+    "quran-json": "^3.1.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.528",
+    "typescript": "^7.0.2"
+  }
+}
