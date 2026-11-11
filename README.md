@@ -8,6 +8,12 @@ npm install
 pip install --break-system-packages numpy scipy soundfile pyloudnorm pocketsphinx pillow
 ```
 
+## Bölümler
+- **E015** The Open Check: seslendirmeli (`src/E015.tsx`, `tools/sfx_mix.py`).
+- **E016** The Pomegranate Problem: seslendirmesiz, müzikli (`src/e016/`, `tools/e016_audio.py`, `episodes/e016-the-pomegranate-problem.md`).
+
+Ortak ses araçları `tools/sfxlib.py`.
+
 ## Bölüm akışı (E015 örneği)
 ```bash
 # 1. ses → zamanlama (public/ep/e015/{words,cues,pauses}.json, timing/captions.srt)

@@ -11,3 +11,9 @@
 - Alt yazı `off` pencereleri birleşmeli (çakışırsa geçişte alt yazı sızar). Üst yazı, sonraki cümle başlamadan silinmeli.
 - Cormorant rakamları eski tarz ("10" → "ıo"); başlıkta rakam yerine yazı ya da lining-nums.
 - Zero-phase (`sosfiltfilt`) bölme kullan; nedensel filtreyle `x - bp(x)` bant içinde enerji bırakır.
+
+## Dersler (E016, seslendirmesiz)
+- Saat ses değil vuruş ızgarası (`src/e016/timeline.ts`); kesimler vuruşa oturur, ses betiği aynı zamanları kullanır.
+- Okuma süresi: her yazı en az 1 sn + kelime başına 0,25 sn ekranda kalır; ses okumayı hızlandırmıyor.
+- quran-json paketindeki Arapça KFGQPC kodlamasıdır (U+0656, U+065E); Amiri Quran'da bozuk çıkar. Ayet metni Quran.com `text_uthmani` olmalı.
+- Tam ekran parlak geçiş karesi "flaş" sayılır; opaklığı ≤ 0,6 tut.

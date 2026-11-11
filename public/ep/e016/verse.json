@@ -1,0 +1,37 @@
+{
+ "source": "Quran.com (text_uthmani) as shown on quran.com 39:62; consonant skeleton cross-checked against the Tanzil text in the quran-json package. Re-run verse_check before publishing.",
+ "translationName": "Saheeh International",
+ "verses": {
+  "39:62": {
+   "key": "39:62",
+   "arabic": "ٱللَّهُ خَـٰلِقُ كُلِّ شَىْءٍۢ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍۢ وَكِيلٌۭ",
+   "words": [
+    "ٱللَّهُ",
+    "خَـٰلِقُ",
+    "كُلِّ",
+    "شَىْءٍۢ ۖ",
+    "وَهُوَ",
+    "عَلَىٰ",
+    "كُلِّ",
+    "شَىْءٍۢ",
+    "وَكِيلٌۭ"
+   ],
+   "translation": "Allah is the Creator of all things, and He is, over all things, Disposer of affairs."
+  }
+ },
+ "lines": [
+  [
+   "ٱللَّهُ",
+   "خَـٰلِقُ",
+   "كُلِّ",
+   "شَىْءٍۢ ۖ"
+  ],
+  [
+   "وَهُوَ",
+   "عَلَىٰ",
+   "كُلِّ",
+   "شَىْءٍۢ",
+   "وَكِيلٌۭ"
+  ]
+ ]
+}
