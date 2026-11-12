@@ -1,0 +1,65 @@
+{
+ "source": "Tanzil Uthmani text (as reproduced on en.wikipedia.org/wiki/Al-Asr); consonant skeleton cross-checked against the quran-json package. Re-run verse_check against Quran.com before publishing.",
+ "translationName": "Saheeh International",
+ "verses": {
+  "103:1": {
+   "key": "103:1",
+   "arabic": "وَٱلْعَصْرِ",
+   "words": [
+    "وَٱلْعَصْرِ"
+   ],
+   "translation": "By time"
+  },
+  "103:2": {
+   "key": "103:2",
+   "arabic": "إِنَّ ٱلْإِنسَٰنَ لَفِى خُسْرٍ",
+   "words": [
+    "إِنَّ",
+    "ٱلْإِنسَٰنَ",
+    "لَفِى",
+    "خُسْرٍ"
+   ],
+   "translation": "Indeed, mankind is in loss"
+  },
+  "103:3": {
+   "key": "103:3",
+   "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+   "words": [
+    "إِلَّا",
+    "ٱلَّذِينَ",
+    "ءَامَنُوا۟",
+    "وَعَمِلُوا۟",
+    "ٱلصَّٰلِحَٰتِ",
+    "وَتَوَاصَوْا۟",
+    "بِٱلْحَقِّ",
+    "وَتَوَاصَوْا۟",
+    "بِٱلصَّبْرِ"
+   ],
+   "translation": "Except for those who have believed and done righteous deeds and advised each other to truth and advised each other to patience"
+  }
+ },
+ "lines": [
+  [
+   "وَٱلْعَصْرِ"
+  ],
+  [
+   "إِنَّ",
+   "ٱلْإِنسَٰنَ",
+   "لَفِى",
+   "خُسْرٍ"
+  ],
+  [
+   "إِلَّا",
+   "ٱلَّذِينَ",
+   "ءَامَنُوا۟",
+   "وَعَمِلُوا۟",
+   "ٱلصَّٰلِحَٰتِ"
+  ],
+  [
+   "وَتَوَاصَوْا۟",
+   "بِٱلْحَقِّ",
+   "وَتَوَاصَوْا۟",
+   "بِٱلصَّبْرِ"
+  ]
+ ]
+}

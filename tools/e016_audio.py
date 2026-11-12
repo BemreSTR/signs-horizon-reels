@@ -26,43 +26,6 @@ def put(sig, t, gain_db=0.0, pan=0.0, send=0.0):
     MIX[:, a:b] += seg
     if send: REV[:, a:b] += seg * send
 
-# ---------------------------------------------------------------- instruments
-NOTE = {'C': 0, 'D': 2, 'Eb': 3, 'E': 4, 'F': 5, 'G': 7, 'A': 9, 'Bb': 10}
-def hz(name):
-    n, o = name[:-1], int(name[-1]); return 440.0 * 2 ** ((NOTE[n] - 9) / 12 + (o - 4))
-
-def pluck(f, dur=1.6, bright=1.0, decay=0.55):
-    """Soft mallet / harp: a few harmonics with faster decay up the series, plus a felt attack."""
-    t = T_(dur); x = np.zeros(len(t))
-    for h, a in ((1, 1.0), (2, 0.42 * bright), (3, 0.2 * bright), (4, 0.1 * bright), (5.4, 0.05 * bright)):
-        x += a * np.sin(2 * np.pi * f * h * t) * np.exp(-t / (decay / h ** 0.8))
-    m = int(0.012 * SR); x[:m] += 0.25 * bp(rng.standard_normal(m), 800, 5000) * np.exp(-np.arange(m) / SR / 0.004)
-    x[:int(0.003 * SR)] *= np.linspace(0, 1, int(0.003 * SR))
-    return norm(x)
-
-def T_(d): return np.arange(int(d * SR)) / SR
-
-def pad(notes, dur, a=1.2, r=1.6, cutoff=1600):
-    """Warm string pad: detuned stacked harmonics, low-passed, slow attack. Stereo."""
-    n = int(dur * SR); t = np.arange(n) / SR; out = np.zeros((2, n))
-    for ni, f0 in enumerate(notes):
-        for vi, cents in enumerate((-9, 0, 8)):
-            f = f0 * 2 ** (cents / 1200) * (1 + 0.002 * np.sin(2 * np.pi * (4.6 + 0.4 * vi) * t + ni))
-            ph = 2 * np.pi * np.cumsum(f) / SR; v = np.zeros(n)
-            for h in range(1, 9): v += np.sin(h * ph + 1.3 * h + ni) / h ** 1.5
-            pan = (vi - 1) * 0.6 + (ni % 3 - 1) * 0.15
-            out[0] += v * np.cos((np.clip(pan, -1, 1) + 1) * np.pi / 4); out[1] += v * np.sin((np.clip(pan, -1, 1) + 1) * np.pi / 4)
-    out = np.stack([lp(out[c], cutoff, 2) for c in range(2)])
-    return norm(out) * env_ar(n, a, r)
-
-def glide(f0, f1, dur, shape=1.0):
-    t = T_(dur); u = t / dur; f = f0 * (f1 / f0) ** (u ** shape)
-    return np.sin(2 * np.pi * np.cumsum(f) / SR) * env_ar(len(t), 0.02, dur * 0.5)
-
-def zap():
-    n = int(0.05 * SR); t = np.arange(n) / SR
-    return norm(bp(rng.standard_normal(n), 2200, 6500) * np.exp(-t / 0.011))
-
 # ---------------------------------------------------------------- 0. bed: periodic, so the loop seam is silent (H34/H77)
 tt = np.arange(N) / SR
 per = lambda f, ph=0.0: np.sin(2 * np.pi * (round(f * TOTAL) / TOTAL) * tt + ph)
