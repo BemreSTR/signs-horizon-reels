@@ -22,3 +22,6 @@
 - Gündüz/gece gibi parlaklık değiştiren döngüleri ~3 Hz'den hızlı çevirme; hızlandıkça salınımı daralt (stroboskop etkisi olmasın).
 - Açılış yakın plansa kare 0'dan itibaren kamera itişi ekle; küçük nesne hareketi tek başına "ilk 0,5 sn'de hareket" eşiğini geçmez.
 - Sahne durumunu `t`'nin saf fonksiyonu yap (`Scene t`): döngü ön gösterimi (t < 0) ve kapaklar aynı bileşeni kullanır.
+- Aynı SVG bileşeni ekranda iki kez varsa gradient/clip id'leri benzersiz olmalı (`uid` öneki): `url(#id)` belge genelinde çözülür, ikinci kopya birincinin renklerini alır.
+- Temsil anlatan videoda öğeleri sıralamak yetmez: hikâyeyi baştan kur, dönüşümün sebebini göster, dersi son karede açıkça yaz. Videonun kendi kaynağında olmayan ayeti sona ekleme.
+- Hayvanlar tanınır çizilmeli (profil, yele, burun, boynuz); "stilize" diye geçme.

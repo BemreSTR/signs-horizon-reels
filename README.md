@@ -11,7 +11,7 @@ pip install --break-system-packages numpy scipy soundfile pyloudnorm pocketsphin
 ## Bölümler
 - **E015** The Open Check: seslendirmeli (`src/E015.tsx`, `tools/sfx_mix.py`).
 - **E016** The Pomegranate Problem: seslendirmesiz, müzikli (`src/e016/`, `tools/e016_audio.py`, `episodes/e016-the-pomegranate-problem.md`).
-- **E017** The Two Rats: seslendirmesiz, müzikli (`src/e017/`, `tools/e017_audio.py`, `episodes/e017-the-two-rats.md`).
+- **E017** The Two Rats (v2, 85 sn): seslendirmesiz, müzikli (`src/e017/`, `tools/e017_audio.py`, `episodes/e017-the-two-rats.md`).
 
 Ortak ses araçları `tools/sfxlib.py`.
 

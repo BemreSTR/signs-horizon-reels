@@ -23,10 +23,10 @@ const Shot: React.FC<{cam: Cam; state: Omit<WellState, 't'>; shade?: string; chi
   </AbsoluteFill>
 );
 const TOP = 'linear-gradient(180deg, rgba(5,7,12,0.86) 0%, rgba(5,7,12,0.74) 28%, rgba(5,7,12,0) 46%)';
-const base = {day: 1, notch: 0.45, active: 'white' as const, lion: 0, dragon: 0, graceL: 0, graceD: 0, you: 0};
+const base = {day: 1, notch: 0.45, active: 'white' as const, lion: 0, dragon: 0, graceL: 0, graceD: 0, you: 0, lionX: 150};
 
 export const E017Cover1: React.FC = () => (
-  <Shot cam={CLOSE} state={base} shade={TOP}>
+  <Shot cam={CLOSE} state={{...base, manOn: 0}} shade={TOP}>
     <Line t={S} at={0} text="TWO RATS." y={270} cap={170} />
     <Line t={S} at={0} text="ONE LIFE." y={430} cap={170} color={C.gold300} />
   </Shot>
@@ -34,14 +34,14 @@ export const E017Cover1: React.FC = () => (
 
 export const E017Cover2: React.FC = () => (
   <Shot cam={{...WIDE, ay: 1000}} state={{...base, day: 0, active: 'black', lion: 1, dragon: 1}}>
-    <Line t={S} at={0} text="LION ABOVE." y={440} cap={120} color={C.emberLight} />
-    <Line t={S} at={0} text="DRAGON BELOW." y={1150} cap={110} color={C.emberLight} />
+    <Line t={S} at={0} text="LION ABOVE." y={470} cap={120} color={C.emberLight} />
+    <Line t={S} at={0} text="DRAGON BELOW." y={1130} cap={110} color={C.emberLight} />
   </Shot>
 );
 
 export const E017Cover3: React.FC = () => (
-  <Shot cam={{k: 1.25, fx: 540, fy: 1250, ax: 540, ay: 1130}} state={{...base, graceL: 1, graceD: 1}}>
-    <Line t={S} at={0} text="THE GRAVE:" y={300} cap={110} />
-    <Line t={S} at={0} text="A DOOR TO A GARDEN?" y={420} cap={110} color={C.gold300} />
+  <Shot cam={WIDE} state={{...base, graceL: 1, graceD: 1}}>
+    <Line t={S} at={0} text="THE GRAVE:" y={400} cap={120} />
+    <Line t={S} at={0} text="A DOOR TO A GARDEN?" y={530} cap={110} color={C.gold300} />
   </Shot>
 );
