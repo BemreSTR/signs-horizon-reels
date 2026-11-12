@@ -31,3 +31,4 @@
 - Çizimde kefe/kap çocuklarından önce çizilir; yoksa içindeki ağırlıklar gizlenir. Döngüde iki farklı sahne pozunu çapraz geçirme (hayalet çift görüntü): sahneyi son karelerde başlangıç pozuna keyframele, çapraz geçiş mikro olsun.
 - ﷺ glifi Cormorant'ta yok: metin `text.json`'dan, Arapça aralığı Amiri Quran ile yaz (`Line`).
 - Hadis/olay videosunda dürüst mercek: karşı tarafın itirazını ve sonucu (tahtını korudu) ekranda bırak; çevirilerde "OUR TRANSLATION" çipi.
+- Render `--concurrency=2` yazıyı tek/çift karelerde ~1 px kaydırıp titretti (E018); `render.sh` artık 1. Teslim öncesi sabit yazı döneminde kare başına dikey ağırlık merkezi ölç (aralık < 0,1 px olmalı).
