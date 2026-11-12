@@ -60,6 +60,7 @@ export const Line: React.FC<{
               display: 'inline-block',
               marginRight: i < words.length - 1 ? '0.26em' : 0,
               color: col,
+              fontFamily: /[؀-ۿﭐ-﷿]/.test(w) ? FONT.quran : undefined,
               opacity: clamp(p * 1.6),
               translate: `0px ${(1 - p) * 26}px`,
               filter: p < 0.98 ? `blur(${(1 - p) * 7}px)` : undefined,

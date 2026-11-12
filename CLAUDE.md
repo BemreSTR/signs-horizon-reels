@@ -25,3 +25,9 @@
 - Aynı SVG bileşeni ekranda iki kez varsa gradient/clip id'leri benzersiz olmalı (`uid` öneki): `url(#id)` belge genelinde çözülür, ikinci kopya birincinin renklerini alır.
 - Temsil anlatan videoda öğeleri sıralamak yetmez: hikâyeyi baştan kur, dönüşümün sebebini göster, dersi son karede açıkça yaz. Videonun kendi kaynağında olmayan ayeti sona ekleme.
 - Hayvanlar tanınır çizilmeli (profil, yele, burun, boynuz); "stilize" diye geçme.
+
+## Dersler (E018, seslendirmesiz)
+- Açık `size` verilen satırlar `fit` ile sınırlanmaz: render sonrası `tools/safezone.py` ile tam çözünürlükte x 180–900 doğrula (hook ve madde listesi 10–30 px taştı).
+- Çizimde kefe/kap çocuklarından önce çizilir; yoksa içindeki ağırlıklar gizlenir. Döngüde iki farklı sahne pozunu çapraz geçirme (hayalet çift görüntü): sahneyi son karelerde başlangıç pozuna keyframele, çapraz geçiş mikro olsun.
+- ﷺ glifi Cormorant'ta yok: metin `text.json`'dan, Arapça aralığı Amiri Quran ile yaz (`Line`).
+- Hadis/olay videosunda dürüst mercek: karşı tarafın itirazını ve sonucu (tahtını korudu) ekranda bırak; çevirilerde "OUR TRANSLATION" çipi.
