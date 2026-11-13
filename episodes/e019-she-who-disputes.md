@@ -43,3 +43,12 @@ A) Arka plan (önerilen, yazıyı Remotion'da eklerim, harf hatası olmaz):
 
 B) Yazı Gemini'de (harf hatasına karşı kontrol et): A promptuna ekle:
 > Add huge elegant serif uppercase text in the upper third, centered, three lines: "SHE ARGUED" (ivory), "WITH A" (ivory), "PROPHET." (pale gold, largest). Text must be spelled exactly, high contrast, with a soft dark shadow, inside the central 70% width.
+
+
+## Teslim (sesli sürüm, 13 Kas 2026)
+- **Video:** `out/E019.mp4` · 1080×1920, 30 fps, 75,6 sn (anlatım 71,8 sn + 0,8 sn kuyruk + 3 sn marka çıkışı), −13,9 LUFS / TP −1,4. Saat = ElevenLabs kelime zamanları (`public/ep/e019/words.json`; Emin – Epic Historical Narrative).
+- **Kod:** `src/e019/{timeline,World,E019,Covers}.tsx` · ses: `tools/e019_audio.py` (D minör yatak, zincir için Eb, ayet/ışık için F#; her halka doğumunda ping, hapiste sessiz) · altyazı: `tools/e019_srt.py` → `out/E019/captions.srt`.
+- **Görsel dil:** Medine sokağı perspektifte, Hevle = ışık, sesi = halkalar, kocanın cümlesi = gri zincir (12,5 sn'de kurulur, 48,99'da "a wrong and a falsehood" ile kırılır), kapı ışığı (Peygamber ﷺ çizilmez, sadece yazı), 33 sn'de gökyüzüne ışık sütunu, oda sahnesi (Âişe ikinci ışık, halkaları parçalı), ayet sahnesinde yıldızlar ışığa eğilir, üç kefaret = yükselen üç ışık, finalde hook pozuna dönüş (döngü).
+- **Dürüst mercek:** olay ayrıntıları "REPORTED · TAFSIR IBN KATHIR" çipiyle (19,98–23,7 sn) ve 61,3 sn'de "HER STORY IS REPORTED. THE VERSES ARE THE QURAN."; ayet çevirisi "OUR TRANSLATION" çipiyle; zıhar evliliği bitirmez, kefaret yolu gösterilir.
+- **Kapak:** `kapak1.png` = kullanıcının Gemini görseli; gömülü yazıda baştaki "A" eksikti ("WOMAN ARGUED WITH A PROPHET."), yazı yıldız izi kutbu (720, 2296) etrafında döndürülerek doldurulup temizlendi, doğru metin ("A WOMAN ARGUED WITH A PROPHET.") Cormorant ile yeniden yazıldı (`E019CoverG`, `public/ep/e019/cover_clean.jpg`). `kapak2–3` önceki alternatifler.
+- **Kontroller:** bozuk/karanlık/donuk kare yok; ortalama parlaklık sıçraması ≤ 4 (outro hariç); sabit yazı dikey kayması < 0,15 px; yazı sütunu x 183–894; döngü dikişi 1,15 (tipik adım 0,69); konuşma bandı marjı ortanca 27 dB, minimum 8 dB.

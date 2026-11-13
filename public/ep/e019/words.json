@@ -1,0 +1,1458 @@
+[
+ {
+  "text": "A",
+  "startMs": 78,
+  "endMs": 235,
+  "timestampMs": 156,
+  "confidence": null
+ },
+ {
+  "text": " woman",
+  "startMs": 235,
+  "endMs": 888,
+  "timestampMs": 561,
+  "confidence": null
+ },
+ {
+  "text": " argued",
+  "startMs": 888,
+  "endMs": 1371,
+  "timestampMs": 1129,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 1371,
+  "endMs": 1580,
+  "timestampMs": 1475,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 1580,
+  "endMs": 1724,
+  "timestampMs": 1652,
+  "confidence": null
+ },
+ {
+  "text": " Prophet.",
+  "startMs": 1724,
+  "endMs": 2220,
+  "timestampMs": 1972,
+  "confidence": null
+ },
+ {
+  "text": " A",
+  "startMs": 2403,
+  "endMs": 2521,
+  "timestampMs": 2462,
+  "confidence": null
+ },
+ {
+  "text": " chapter",
+  "startMs": 2521,
+  "endMs": 2952,
+  "timestampMs": 2736,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 2952,
+  "endMs": 3109,
+  "timestampMs": 3030,
+  "confidence": null
+ },
+ {
+  "text": " named",
+  "startMs": 3109,
+  "endMs": 3318,
+  "timestampMs": 3213,
+  "confidence": null
+ },
+ {
+  "text": " after",
+  "startMs": 3318,
+  "endMs": 3814,
+  "timestampMs": 3566,
+  "confidence": null
+ },
+ {
+  "text": " her.",
+  "startMs": 3814,
+  "endMs": 4153,
+  "timestampMs": 3983,
+  "confidence": null
+ },
+ {
+  "text": " Medina.",
+  "startMs": 4500,
+  "endMs": 5300,
+  "timestampMs": 4900,
+  "confidence": null
+ },
+ {
+  "text": " Her",
+  "startMs": 5460,
+  "endMs": 5656,
+  "timestampMs": 5558,
+  "confidence": null
+ },
+ {
+  "text": " name",
+  "startMs": 5656,
+  "endMs": 5930,
+  "timestampMs": 5793,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 5930,
+  "endMs": 6073,
+  "timestampMs": 6001,
+  "confidence": null
+ },
+ {
+  "text": " Khawla.",
+  "startMs": 6073,
+  "endMs": 6883,
+  "timestampMs": 6478,
+  "confidence": null
+ },
+ {
+  "text": " In",
+  "startMs": 7027,
+  "endMs": 7262,
+  "timestampMs": 7144,
+  "confidence": null
+ },
+ {
+  "text": " anger,",
+  "startMs": 7262,
+  "endMs": 7850,
+  "timestampMs": 7556,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 7850,
+  "endMs": 8020,
+  "timestampMs": 7935,
+  "confidence": null
+ },
+ {
+  "text": " husband",
+  "startMs": 8020,
+  "endMs": 8699,
+  "timestampMs": 8359,
+  "confidence": null
+ },
+ {
+  "text": " said",
+  "startMs": 8699,
+  "endMs": 8908,
+  "timestampMs": 8803,
+  "confidence": null
+ },
+ {
+  "text": " one",
+  "startMs": 8908,
+  "endMs": 9182,
+  "timestampMs": 9045,
+  "confidence": null
+ },
+ {
+  "text": " sentence:",
+  "startMs": 9182,
+  "endMs": 9718,
+  "timestampMs": 9450,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 9835,
+  "endMs": 10057,
+  "timestampMs": 9946,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 10057,
+  "endMs": 10279,
+  "timestampMs": 10168,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 10279,
+  "endMs": 10449,
+  "timestampMs": 10364,
+  "confidence": null
+ },
+ {
+  "text": " me",
+  "startMs": 10449,
+  "endMs": 10919,
+  "timestampMs": 10684,
+  "confidence": null
+ },
+ {
+  "text": " like",
+  "startMs": 10919,
+  "endMs": 11207,
+  "timestampMs": 11063,
+  "confidence": null
+ },
+ {
+  "text": " my",
+  "startMs": 11207,
+  "endMs": 11350,
+  "timestampMs": 11278,
+  "confidence": null
+ },
+ {
+  "text": " mother's",
+  "startMs": 11350,
+  "endMs": 11938,
+  "timestampMs": 11644,
+  "confidence": null
+ },
+ {
+  "text": " back.",
+  "startMs": 11938,
+  "endMs": 12186,
+  "timestampMs": 12062,
+  "confidence": null
+ },
+ {
+  "text": " By",
+  "startMs": 12539,
+  "endMs": 12787,
+  "timestampMs": 12663,
+  "confidence": null
+ },
+ {
+  "text": " their",
+  "startMs": 12787,
+  "endMs": 13283,
+  "timestampMs": 13035,
+  "confidence": null
+ },
+ {
+  "text": " custom,",
+  "startMs": 13283,
+  "endMs": 13753,
+  "timestampMs": 13518,
+  "confidence": null
+ },
+ {
+  "text": " those",
+  "startMs": 13753,
+  "endMs": 14015,
+  "timestampMs": 13884,
+  "confidence": null
+ },
+ {
+  "text": " words",
+  "startMs": 14015,
+  "endMs": 14537,
+  "timestampMs": 14276,
+  "confidence": null
+ },
+ {
+  "text": " were",
+  "startMs": 14537,
+  "endMs": 14890,
+  "timestampMs": 14713,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 14890,
+  "endMs": 15190,
+  "timestampMs": 15040,
+  "confidence": null
+ },
+ {
+  "text": " trap.",
+  "startMs": 15190,
+  "endMs": 15739,
+  "timestampMs": 15464,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 15856,
+  "endMs": 16039,
+  "timestampMs": 15947,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 16039,
+  "endMs": 16170,
+  "timestampMs": 16104,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 16170,
+  "endMs": 16496,
+  "timestampMs": 16333,
+  "confidence": null
+ },
+ {
+  "text": " divorced.",
+  "startMs": 16496,
+  "endMs": 17280,
+  "timestampMs": 16888,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 17358,
+  "endMs": 17528,
+  "timestampMs": 17443,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 17528,
+  "endMs": 17659,
+  "timestampMs": 17593,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 17659,
+  "endMs": 17933,
+  "timestampMs": 17796,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 17933,
+  "endMs": 18155,
+  "timestampMs": 18044,
+  "confidence": null
+ },
+ {
+  "text": " wife.",
+  "startMs": 18155,
+  "endMs": 18521,
+  "timestampMs": 18338,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 18612,
+  "endMs": 18769,
+  "timestampMs": 18690,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 18769,
+  "endMs": 18860,
+  "timestampMs": 18814,
+  "confidence": null
+ },
+ {
+  "text": " NOWHERE.",
+  "startMs": 18860,
+  "endMs": 19722,
+  "timestampMs": 19291,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 19984,
+  "endMs": 20245,
+  "timestampMs": 20114,
+  "confidence": null
+ },
+ {
+  "text": " reports",
+  "startMs": 20245,
+  "endMs": 20715,
+  "timestampMs": 20480,
+  "confidence": null
+ },
+ {
+  "text": " say",
+  "startMs": 20715,
+  "endMs": 21133,
+  "timestampMs": 20924,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 21133,
+  "endMs": 21303,
+  "timestampMs": 21218,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 21303,
+  "endMs": 21486,
+  "timestampMs": 21394,
+  "confidence": null
+ },
+ {
+  "text": " spent",
+  "startMs": 21486,
+  "endMs": 21747,
+  "timestampMs": 21616,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 21747,
+  "endMs": 21943,
+  "timestampMs": 21845,
+  "confidence": null
+ },
+ {
+  "text": " youth,",
+  "startMs": 21943,
+  "endMs": 22400,
+  "timestampMs": 22171,
+  "confidence": null
+ },
+ {
+  "text": " then",
+  "startMs": 22452,
+  "endMs": 22622,
+  "timestampMs": 22537,
+  "confidence": null
+ },
+ {
+  "text": " left",
+  "startMs": 22622,
+  "endMs": 22922,
+  "timestampMs": 22772,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 22922,
+  "endMs": 23053,
+  "timestampMs": 22987,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 23053,
+  "endMs": 23144,
+  "timestampMs": 23098,
+  "confidence": null
+ },
+ {
+  "text": " limbo.",
+  "startMs": 23144,
+  "endMs": 23798,
+  "timestampMs": 23471,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 24059,
+  "endMs": 24242,
+  "timestampMs": 24150,
+  "confidence": null
+ },
+ {
+  "text": " went",
+  "startMs": 24242,
+  "endMs": 24411,
+  "timestampMs": 24326,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 24411,
+  "endMs": 24542,
+  "timestampMs": 24476,
+  "confidence": null
+ },
+ {
+  "text": " Muhammad,",
+  "startMs": 24542,
+  "endMs": 25025,
+  "timestampMs": 24783,
+  "confidence": null
+ },
+ {
+  "text": " peace",
+  "startMs": 25025,
+  "endMs": 25169,
+  "timestampMs": 25097,
+  "confidence": null
+ },
+ {
+  "text": " be",
+  "startMs": 25169,
+  "endMs": 25287,
+  "timestampMs": 25228,
+  "confidence": null
+ },
+ {
+  "text": " upon",
+  "startMs": 25287,
+  "endMs": 25704,
+  "timestampMs": 25495,
+  "confidence": null
+ },
+ {
+  "text": " him.",
+  "startMs": 25704,
+  "endMs": 26201,
+  "timestampMs": 25952,
+  "confidence": null
+ },
+ {
+  "text": " At",
+  "startMs": 26410,
+  "endMs": 26580,
+  "timestampMs": 26495,
+  "confidence": null
+ },
+ {
+  "text": " first",
+  "startMs": 26580,
+  "endMs": 26815,
+  "timestampMs": 26697,
+  "confidence": null
+ },
+ {
+  "text": " he",
+  "startMs": 26815,
+  "endMs": 26932,
+  "timestampMs": 26873,
+  "confidence": null
+ },
+ {
+  "text": " said:",
+  "startMs": 26932,
+  "endMs": 27324,
+  "timestampMs": 27128,
+  "confidence": null
+ },
+ {
+  "text": " fear",
+  "startMs": 27324,
+  "endMs": 27572,
+  "timestampMs": 27448,
+  "confidence": null
+ },
+ {
+  "text": " Allah.",
+  "startMs": 27572,
+  "endMs": 28630,
+  "timestampMs": 28101,
+  "confidence": null
+ },
+ {
+  "text": " He",
+  "startMs": 28735,
+  "endMs": 28944,
+  "timestampMs": 28839,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 28944,
+  "endMs": 29100,
+  "timestampMs": 29022,
+  "confidence": null
+ },
+ {
+  "text": " your",
+  "startMs": 29100,
+  "endMs": 29231,
+  "timestampMs": 29165,
+  "confidence": null
+ },
+ {
+  "text": " cousin.",
+  "startMs": 29231,
+  "endMs": 29753,
+  "timestampMs": 29492,
+  "confidence": null
+ },
+ {
+  "text": " No",
+  "startMs": 29936,
+  "endMs": 30171,
+  "timestampMs": 30053,
+  "confidence": null
+ },
+ {
+  "text": " revelation",
+  "startMs": 30171,
+  "endMs": 30942,
+  "timestampMs": 30556,
+  "confidence": null
+ },
+ {
+  "text": " had",
+  "startMs": 30942,
+  "endMs": 31125,
+  "timestampMs": 31033,
+  "confidence": null
+ },
+ {
+  "text": " come",
+  "startMs": 31125,
+  "endMs": 31399,
+  "timestampMs": 31262,
+  "confidence": null
+ },
+ {
+  "text": " yet.",
+  "startMs": 31399,
+  "endMs": 31582,
+  "timestampMs": 31490,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 31726,
+  "endMs": 31935,
+  "timestampMs": 31830,
+  "confidence": null
+ },
+ {
+  "text": " did",
+  "startMs": 31935,
+  "endMs": 32340,
+  "timestampMs": 32137,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 32340,
+  "endMs": 32614,
+  "timestampMs": 32477,
+  "confidence": null
+ },
+ {
+  "text": " leave.",
+  "startMs": 32614,
+  "endMs": 32875,
+  "timestampMs": 32744,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 32980,
+  "endMs": 33215,
+  "timestampMs": 33097,
+  "confidence": null
+ },
+ {
+  "text": " turned",
+  "startMs": 33215,
+  "endMs": 33502,
+  "timestampMs": 33358,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 33502,
+  "endMs": 33672,
+  "timestampMs": 33587,
+  "confidence": null
+ },
+ {
+  "text": " complaint",
+  "startMs": 33672,
+  "endMs": 34155,
+  "timestampMs": 33913,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 34155,
+  "endMs": 34351,
+  "timestampMs": 34253,
+  "confidence": null
+ },
+ {
+  "text": " Allah.",
+  "startMs": 34351,
+  "endMs": 34939,
+  "timestampMs": 34645,
+  "confidence": null
+ },
+ {
+  "text": " Aisha,",
+  "startMs": 35056,
+  "endMs": 35500,
+  "timestampMs": 35278,
+  "confidence": null
+ },
+ {
+  "text": " in",
+  "startMs": 35500,
+  "endMs": 35696,
+  "timestampMs": 35598,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 35696,
+  "endMs": 35853,
+  "timestampMs": 35774,
+  "confidence": null
+ },
+ {
+  "text": " same",
+  "startMs": 35853,
+  "endMs": 36193,
+  "timestampMs": 36023,
+  "confidence": null
+ },
+ {
+  "text": " room,",
+  "startMs": 36193,
+  "endMs": 36558,
+  "timestampMs": 36375,
+  "confidence": null
+ },
+ {
+  "text": " could",
+  "startMs": 36558,
+  "endMs": 36728,
+  "timestampMs": 36643,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 36728,
+  "endMs": 36872,
+  "timestampMs": 36800,
+  "confidence": null
+ },
+ {
+  "text": " catch",
+  "startMs": 36872,
+  "endMs": 37133,
+  "timestampMs": 37002,
+  "confidence": null
+ },
+ {
+  "text": " every",
+  "startMs": 37133,
+  "endMs": 37734,
+  "timestampMs": 37433,
+  "confidence": null
+ },
+ {
+  "text": " word.",
+  "startMs": 37734,
+  "endMs": 38204,
+  "timestampMs": 37969,
+  "confidence": null
+ },
+ {
+  "text": " But",
+  "startMs": 38348,
+  "endMs": 38531,
+  "timestampMs": 38439,
+  "confidence": null
+ },
+ {
+  "text": " Allah",
+  "startMs": 38531,
+  "endMs": 39118,
+  "timestampMs": 38824,
+  "confidence": null
+ },
+ {
+  "text": " heard",
+  "startMs": 39118,
+  "endMs": 39445,
+  "timestampMs": 39281,
+  "confidence": null
+ },
+ {
+  "text": " all",
+  "startMs": 39445,
+  "endMs": 39732,
+  "timestampMs": 39588,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 39732,
+  "endMs": 39941,
+  "timestampMs": 39836,
+  "confidence": null
+ },
+ {
+  "text": " it.",
+  "startMs": 39941,
+  "endMs": 40124,
+  "timestampMs": 40032,
+  "confidence": null
+ },
+ {
+  "text": " Then",
+  "startMs": 40294,
+  "endMs": 40607,
+  "timestampMs": 40450,
+  "confidence": null
+ },
+ {
+  "text": " came",
+  "startMs": 40607,
+  "endMs": 40869,
+  "timestampMs": 40738,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 40869,
+  "endMs": 41117,
+  "timestampMs": 40993,
+  "confidence": null
+ },
+ {
+  "text": " verse:",
+  "startMs": 41117,
+  "endMs": 41587,
+  "timestampMs": 41352,
+  "confidence": null
+ },
+ {
+  "text": " Allah",
+  "startMs": 41704,
+  "endMs": 42227,
+  "timestampMs": 41965,
+  "confidence": null
+ },
+ {
+  "text": " has",
+  "startMs": 42227,
+  "endMs": 42358,
+  "timestampMs": 42292,
+  "confidence": null
+ },
+ {
+  "text": " heard",
+  "startMs": 42358,
+  "endMs": 42619,
+  "timestampMs": 42488,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 42619,
+  "endMs": 42749,
+  "timestampMs": 42684,
+  "confidence": null
+ },
+ {
+  "text": " woman",
+  "startMs": 42749,
+  "endMs": 43246,
+  "timestampMs": 42997,
+  "confidence": null
+ },
+ {
+  "text": " who",
+  "startMs": 43246,
+  "endMs": 43468,
+  "timestampMs": 43357,
+  "confidence": null
+ },
+ {
+  "text": " argues",
+  "startMs": 43468,
+  "endMs": 43807,
+  "timestampMs": 43637,
+  "confidence": null
+ },
+ {
+  "text": " with",
+  "startMs": 43807,
+  "endMs": 43938,
+  "timestampMs": 43872,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 43938,
+  "endMs": 44082,
+  "timestampMs": 44010,
+  "confidence": null
+ },
+ {
+  "text": " about",
+  "startMs": 44082,
+  "endMs": 44565,
+  "timestampMs": 44323,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 44565,
+  "endMs": 44682,
+  "timestampMs": 44623,
+  "confidence": null
+ },
+ {
+  "text": " husband",
+  "startMs": 44682,
+  "endMs": 44996,
+  "timestampMs": 44839,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 44996,
+  "endMs": 45127,
+  "timestampMs": 45061,
+  "confidence": null
+ },
+ {
+  "text": " complains",
+  "startMs": 45127,
+  "endMs": 45636,
+  "timestampMs": 45381,
+  "confidence": null
+ },
+ {
+  "text": " to",
+  "startMs": 45636,
+  "endMs": 45767,
+  "timestampMs": 45701,
+  "confidence": null
+ },
+ {
+  "text": " Allah.",
+  "startMs": 45767,
+  "endMs": 46459,
+  "timestampMs": 46113,
+  "confidence": null
+ },
+ {
+  "text": " And",
+  "startMs": 46589,
+  "endMs": 46720,
+  "timestampMs": 46654,
+  "confidence": null
+ },
+ {
+  "text": " Allah",
+  "startMs": 46720,
+  "endMs": 47399,
+  "timestampMs": 47059,
+  "confidence": null
+ },
+ {
+  "text": " hears",
+  "startMs": 47399,
+  "endMs": 47673,
+  "timestampMs": 47536,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 47673,
+  "endMs": 47843,
+  "timestampMs": 47758,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 47843,
+  "endMs": 48052,
+  "timestampMs": 47947,
+  "confidence": null
+ },
+ {
+  "text": " of",
+  "startMs": 48052,
+  "endMs": 48183,
+  "timestampMs": 48117,
+  "confidence": null
+ },
+ {
+  "text": " you",
+  "startMs": 48183,
+  "endMs": 48313,
+  "timestampMs": 48248,
+  "confidence": null
+ },
+ {
+  "text": " talking.",
+  "startMs": 48313,
+  "endMs": 48797,
+  "timestampMs": 48555,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 48993,
+  "endMs": 49149,
+  "timestampMs": 49071,
+  "confidence": null
+ },
+ {
+  "text": " Quran",
+  "startMs": 49149,
+  "endMs": 49607,
+  "timestampMs": 49378,
+  "confidence": null
+ },
+ {
+  "text": " calls",
+  "startMs": 49607,
+  "endMs": 49933,
+  "timestampMs": 49770,
+  "confidence": null
+ },
+ {
+  "text": " his",
+  "startMs": 49933,
+  "endMs": 50090,
+  "timestampMs": 50011,
+  "confidence": null
+ },
+ {
+  "text": " words",
+  "startMs": 50090,
+  "endMs": 50351,
+  "timestampMs": 50220,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 50351,
+  "endMs": 50469,
+  "timestampMs": 50410,
+  "confidence": null
+ },
+ {
+  "text": " wrong",
+  "startMs": 50469,
+  "endMs": 50664,
+  "timestampMs": 50566,
+  "confidence": null
+ },
+ {
+  "text": " and",
+  "startMs": 50664,
+  "endMs": 50873,
+  "timestampMs": 50768,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 50873,
+  "endMs": 51043,
+  "timestampMs": 50958,
+  "confidence": null
+ },
+ {
+  "text": " falsehood.",
+  "startMs": 51043,
+  "endMs": 52023,
+  "timestampMs": 51533,
+  "confidence": null
+ },
+ {
+  "text": " His",
+  "startMs": 52153,
+  "endMs": 52349,
+  "timestampMs": 52251,
+  "confidence": null
+ },
+ {
+  "text": " path",
+  "startMs": 52349,
+  "endMs": 52663,
+  "timestampMs": 52506,
+  "confidence": null
+ },
+ {
+  "text": " back",
+  "startMs": 52663,
+  "endMs": 52924,
+  "timestampMs": 52793,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 52924,
+  "endMs": 53185,
+  "timestampMs": 53054,
+  "confidence": null
+ },
+ {
+  "text": " atonement:",
+  "startMs": 53185,
+  "endMs": 53878,
+  "timestampMs": 53531,
+  "confidence": null
+ },
+ {
+  "text": " free",
+  "startMs": 53904,
+  "endMs": 54178,
+  "timestampMs": 54041,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 54178,
+  "endMs": 54387,
+  "timestampMs": 54282,
+  "confidence": null
+ },
+ {
+  "text": " slave,",
+  "startMs": 54387,
+  "endMs": 54896,
+  "timestampMs": 54641,
+  "confidence": null
+ },
+ {
+  "text": " fast",
+  "startMs": 54896,
+  "endMs": 55262,
+  "timestampMs": 55079,
+  "confidence": null
+ },
+ {
+  "text": " two",
+  "startMs": 55262,
+  "endMs": 55484,
+  "timestampMs": 55373,
+  "confidence": null
+ },
+ {
+  "text": " months,",
+  "startMs": 55484,
+  "endMs": 55902,
+  "timestampMs": 55693,
+  "confidence": null
+ },
+ {
+  "text": " or",
+  "startMs": 55902,
+  "endMs": 56046,
+  "timestampMs": 55974,
+  "confidence": null
+ },
+ {
+  "text": " feed",
+  "startMs": 56046,
+  "endMs": 56438,
+  "timestampMs": 56242,
+  "confidence": null
+ },
+ {
+  "text": " sixty",
+  "startMs": 56438,
+  "endMs": 56934,
+  "timestampMs": 56686,
+  "confidence": null
+ },
+ {
+  "text": " poor",
+  "startMs": 56934,
+  "endMs": 57182,
+  "timestampMs": 57058,
+  "confidence": null
+ },
+ {
+  "text": " people.",
+  "startMs": 57182,
+  "endMs": 57665,
+  "timestampMs": 57423,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 57796,
+  "endMs": 57927,
+  "timestampMs": 57861,
+  "confidence": null
+ },
+ {
+  "text": " chapter",
+  "startMs": 57927,
+  "endMs": 58462,
+  "timestampMs": 58194,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 58462,
+  "endMs": 58580,
+  "timestampMs": 58521,
+  "confidence": null
+ },
+ {
+  "text": " called",
+  "startMs": 58580,
+  "endMs": 58828,
+  "timestampMs": 58704,
+  "confidence": null
+ },
+ {
+  "text": " Al-Mujadila:",
+  "startMs": 58828,
+  "endMs": 59820,
+  "timestampMs": 59324,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 59847,
+  "endMs": 60095,
+  "timestampMs": 59971,
+  "confidence": null
+ },
+ {
+  "text": " Who",
+  "startMs": 60095,
+  "endMs": 60408,
+  "timestampMs": 60251,
+  "confidence": null
+ },
+ {
+  "text": " Disputes.",
+  "startMs": 60408,
+  "endMs": 61218,
+  "timestampMs": 60813,
+  "confidence": null
+ },
+ {
+  "text": " Her",
+  "startMs": 61296,
+  "endMs": 61440,
+  "timestampMs": 61368,
+  "confidence": null
+ },
+ {
+  "text": " story",
+  "startMs": 61440,
+  "endMs": 61989,
+  "timestampMs": 61714,
+  "confidence": null
+ },
+ {
+  "text": " is",
+  "startMs": 61989,
+  "endMs": 62184,
+  "timestampMs": 62086,
+  "confidence": null
+ },
+ {
+  "text": " reported.",
+  "startMs": 62184,
+  "endMs": 62798,
+  "timestampMs": 62491,
+  "confidence": null
+ },
+ {
+  "text": " The",
+  "startMs": 62916,
+  "endMs": 63073,
+  "timestampMs": 62994,
+  "confidence": null
+ },
+ {
+  "text": " verses",
+  "startMs": 63073,
+  "endMs": 63726,
+  "timestampMs": 63399,
+  "confidence": null
+ },
+ {
+  "text": " are",
+  "startMs": 63726,
+  "endMs": 63961,
+  "timestampMs": 63843,
+  "confidence": null
+ },
+ {
+  "text": " the",
+  "startMs": 63961,
+  "endMs": 64157,
+  "timestampMs": 64059,
+  "confidence": null
+ },
+ {
+  "text": " Quran.",
+  "startMs": 64157,
+  "endMs": 64562,
+  "timestampMs": 64359,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 64744,
+  "endMs": 64953,
+  "timestampMs": 64848,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 64953,
+  "endMs": 65123,
+  "timestampMs": 65038,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 65123,
+  "endMs": 65371,
+  "timestampMs": 65247,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 65371,
+  "endMs": 65515,
+  "timestampMs": 65443,
+  "confidence": null
+ },
+ {
+  "text": " queen.",
+  "startMs": 65515,
+  "endMs": 65998,
+  "timestampMs": 65756,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 66051,
+  "endMs": 66247,
+  "timestampMs": 66149,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 66247,
+  "endMs": 66403,
+  "timestampMs": 66325,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 66403,
+  "endMs": 66625,
+  "timestampMs": 66514,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 66625,
+  "endMs": 66808,
+  "timestampMs": 66716,
+  "confidence": null
+ },
+ {
+  "text": " scholar.",
+  "startMs": 66808,
+  "endMs": 67239,
+  "timestampMs": 67023,
+  "confidence": null
+ },
+ {
+  "text": " She",
+  "startMs": 67331,
+  "endMs": 67540,
+  "timestampMs": 67435,
+  "confidence": null
+ },
+ {
+  "text": " was",
+  "startMs": 67540,
+  "endMs": 67709,
+  "timestampMs": 67624,
+  "confidence": null
+ },
+ {
+  "text": " a",
+  "startMs": 67709,
+  "endMs": 67866,
+  "timestampMs": 67787,
+  "confidence": null
+ },
+ {
+  "text": " woman",
+  "startMs": 67866,
+  "endMs": 68376,
+  "timestampMs": 68121,
+  "confidence": null
+ },
+ {
+  "text": " who",
+  "startMs": 68376,
+  "endMs": 68519,
+  "timestampMs": 68447,
+  "confidence": null
+ },
+ {
+  "text": " would",
+  "startMs": 68519,
+  "endMs": 68820,
+  "timestampMs": 68669,
+  "confidence": null
+ },
+ {
+  "text": " not",
+  "startMs": 68820,
+  "endMs": 69002,
+  "timestampMs": 68911,
+  "confidence": null
+ },
+ {
+  "text": " stop",
+  "startMs": 69002,
+  "endMs": 69238,
+  "timestampMs": 69120,
+  "confidence": null
+ },
+ {
+  "text": " asking.",
+  "startMs": 69238,
+  "endMs": 69904,
+  "timestampMs": 69571,
+  "confidence": null
+ },
+ {
+  "text": " Allah",
+  "startMs": 70021,
+  "endMs": 70609,
+  "timestampMs": 70315,
+  "confidence": null
+ },
+ {
+  "text": " kept",
+  "startMs": 70609,
+  "endMs": 70870,
+  "timestampMs": 70739,
+  "confidence": null
+ },
+ {
+  "text": " her",
+  "startMs": 70870,
+  "endMs": 71092,
+  "timestampMs": 70981,
+  "confidence": null
+ },
+ {
+  "text": " question.",
+  "startMs": 71092,
+  "endMs": 71745,
+  "timestampMs": 71418,
+  "confidence": null
+ }
+]

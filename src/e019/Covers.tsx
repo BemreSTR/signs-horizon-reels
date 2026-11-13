@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, random} from 'remotion';
+import {AbsoluteFill, Img, random, staticFile} from 'remotion';
 import {C} from '../brand/tokens';
 import {Grain, Vignette} from '../components/Atmosphere';
 import {Watermark} from '../brandkit/BrandKit';
@@ -104,4 +104,21 @@ export const E019Cover3: React.FC = () => (
     <Line t={S} at={0} text="THE SKY" y={290} cap={190} />
     <Line t={S} at={0} text="HEARD HER." y={470} cap={190} color={C.gold300} />
   </Shot>
+);
+
+/** Cover from the user's Gemini image (star trails over the sleeping town): its baked text lacked the leading "A",
+ *  so the text was removed (rotation-fill about the star pole) and set again here. Image lifted 250 px so the town's light sits inside the 3:4 grid crop. */
+export const E019CoverG: React.FC = () => (
+  <AbsoluteFill style={{background: '#060608', overflow: 'hidden'}}>
+    <Img src={staticFile('ep/e019/cover_clean.jpg')} style={{position: 'absolute', left: 0, top: -250, width: 1080, height: 1935}} />
+    <div style={{position: 'absolute', left: 0, right: 0, top: 1540, height: 380, background: 'linear-gradient(180deg, rgba(6,6,8,0) 0%, #060608 42%)'}} />
+    <AbsoluteFill style={{background: 'radial-gradient(ellipse 78% 27% at 50% 40%, rgba(4,6,10,0.62) 0%, rgba(4,6,10,0) 100%)'}} />
+    <Line t={S} at={0} text="A WOMAN" y={470} cap={150} stagger={0} />
+    <Line t={S} at={0} text="ARGUED" y={632} cap={150} stagger={0} />
+    <Line t={S} at={0} text="WITH A" y={794} cap={150} stagger={0} />
+    <Line t={S} at={0} text="PROPHET." y={956} cap={150} color={C.gold300} stagger={0} />
+    <Vignette strength={0.35} />
+    <Grain opacity={0.07} />
+    <Watermark opacity={0.4} />
+  </AbsoluteFill>
 );

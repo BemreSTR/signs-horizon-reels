@@ -1,0 +1,35 @@
+{
+ "source": "Quran.com (text_uthmani) as shown on quran.com 58:1. Excerpt = the part the narrator reads (up to تَحَاوُرَكُمَآ). Re-run verse_check before publishing.",
+ "translationName": "Our translation",
+ "verses": {
+  "58:1": {
+   "key": "58:1",
+   "arabic": "قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَـٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمَآ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+   "excerptLines": [
+    [
+     "قَدْ",
+     "سَمِعَ",
+     "ٱللَّهُ",
+     "قَوْلَ",
+     "ٱلَّتِى"
+    ],
+    [
+     "تُجَـٰدِلُكَ",
+     "فِى",
+     "زَوْجِهَا"
+    ],
+    [
+     "وَتَشْتَكِىٓ",
+     "إِلَى",
+     "ٱللَّهِ"
+    ],
+    [
+     "وَٱللَّهُ",
+     "يَسْمَعُ",
+     "تَحَاوُرَكُمَآ"
+    ]
+   ],
+   "translation": "Allah has heard the woman who argues with you about her husband and complains to Allah. And Allah hears the two of you talking."
+  }
+ }
+}

@@ -3,10 +3,12 @@ import {C, FONT, TEXT_COLUMN} from '../brand/tokens';
 import {EASE, clamp, ramp} from '../lib/anim';
 import {WORDS} from '../lib/data';
 
-type Page = {from: number; to: number; words: {text: string; s: number; e: number}[]};
+export type CapWord = {text: string; startMs: number; endMs: number; pageBreakAfter?: boolean};
+
+export type Page = {from: number; to: number; words: {text: string; s: number; e: number}[]};
 
 /** Pages: ≤ 2 short lines, broken at sentence ends, long pauses and ~34 characters. */
-const buildPages = (): Page[] => {
+export const buildPages = (ws: CapWord[] = WORDS): Page[] => {
   const pages: Page[] = [];
   let cur: Page['words'] = [];
   let chars = 0;
@@ -15,11 +17,11 @@ const buildPages = (): Page[] => {
     cur = [];
     chars = 0;
   };
-  WORDS.forEach((w, i) => {
+  ws.forEach((w, i) => {
     const s = w.startMs / 1000;
     const e = w.endMs / 1000;
     const text = w.text.trim();
-    const prevEnd = i ? WORDS[i - 1].endMs / 1000 : 0;
+    const prevEnd = i ? ws[i - 1].endMs / 1000 : 0;
     if (cur.length && (chars + text.length > 34 || s - prevEnd > 0.4)) flush();
     cur.push({text, s, e});
     chars += text.length + 1;
@@ -31,14 +33,14 @@ const buildPages = (): Page[] => {
 export const PAGES = buildPages();
 
 /** `off` windows (seconds) hide the captions while the same words are on screen in large type (H19). */
-export const Captions: React.FC<{t: number; off?: [number, number][]; top?: number}> = ({t, off = [], top = 1236}) => {
-  const idx = PAGES.findIndex((p, i) => {
-    const next = PAGES[i + 1];
+export const Captions: React.FC<{t: number; off?: [number, number][]; top?: number; pages?: Page[]}> = ({t, off = [], top = 1236, pages = PAGES}) => {
+  const idx = pages.findIndex((p, i) => {
+    const next = pages[i + 1];
     const end = Math.min(p.to + 0.18, next ? next.from - 0.02 : 99);
     return t >= p.from - 0.05 && t < end;
   });
   if (idx < 0) return null;
-  const p = PAGES[idx];
+  const p = pages[idx];
   // touching / overlapping windows are one window: otherwise their fades cross and the captions leak at the seam
   const merged = [...off]
     .sort((x, y) => x[0] - y[0])
@@ -50,7 +52,7 @@ export const Captions: React.FC<{t: number; off?: [number, number][]; top?: numb
     }, []);
   const offFade = merged.reduce((m, [a, b]) => Math.min(m, 1 - ramp(t, a, a + 0.12) * (1 - ramp(t, b - 0.12, b))), 1);
   const enter = ramp(t, p.from - 0.05, p.from + 0.1, EASE.out);
-  const next = PAGES[idx + 1];
+  const next = pages[idx + 1];
   const leave = 1 - ramp(t, Math.min(p.to + 0.1, next ? next.from - 0.04 : 99), p.to + 0.18);
   const vis = enter * leave * offFade;
   if (vis < 0.01) return null;

@@ -32,3 +32,10 @@
 - ﷺ glifi Cormorant'ta yok: metin `text.json`'dan, Arapça aralığı Amiri Quran ile yaz (`Line`).
 - Hadis/olay videosunda dürüst mercek: karşı tarafın itirazını ve sonucu (tahtını korudu) ekranda bırak; çevirilerde "OUR TRANSLATION" çipi.
 - Render `--concurrency=2` yazıyı tek/çift karelerde ~1 px kaydırıp titretti (E018); `render.sh` artık 1. Teslim öncesi sabit yazı döneminde kare başına dikey ağırlık merkezi ölç (aralık < 0,1 px olmalı).
+
+## Dersler (E019, ElevenLabs sesli)
+- Saat = ElevenLabs kelime zamanları (`public/ep/<id>/words.json`, SRT'den). Üst yazının `out`'u cümlenin son kelime bitişine, `off` pencereleri aynı sınırlara oturur; yoksa sonraki cümlenin ilk kelimeleri ekranda hiçbir yerde olmaz.
+- Gemini'nin gömülü yazısı yanlış çıkabilir (eksik "A"): yazıyı yıldız izi kutbu etrafında döndürerek doldur (kutbu, döndürülmüş kopya farkını minimize ederek bul), marka fontuyla yeniden yaz; ışığı 3:4 kırpma içine almak için görseli yukarı kaydır.
+- Açık `size` fit'e uymaz: 50 px'lik uzun alt satır 929 px yayıldı; fit() ile sınırla ya da iki satıra böl. `Lines` bileşeninde `size` tavan sayılır.
+- Altın ışık sütununun önünde altın yazı okunmaz: fildişi yazı + yerel koyu gölge. Düz sarı katman (%20) koyu lacivert üstünde çamurlu görünür; parlamayı radyal ışıkla, ≥0,9 s'de aç (bir karede ortalama parlaklık 8 birim sıçradı).
+- Sürekli ping efekti ekrandaki halka doğumuna bağlanır (t_n = n·gap/v); halka kapalıyken (hapis) ses de susar.
