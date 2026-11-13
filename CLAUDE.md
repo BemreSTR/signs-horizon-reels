@@ -39,3 +39,10 @@
 - Açık `size` fit'e uymaz: 50 px'lik uzun alt satır 929 px yayıldı; fit() ile sınırla ya da iki satıra böl. `Lines` bileşeninde `size` tavan sayılır.
 - Altın ışık sütununun önünde altın yazı okunmaz: fildişi yazı + yerel koyu gölge. Düz sarı katman (%20) koyu lacivert üstünde çamurlu görünür; parlamayı radyal ışıkla, ≥0,9 s'de aç (bir karede ortalama parlaklık 8 birim sıçradı).
 - Sürekli ping efekti ekrandaki halka doğumuna bağlanır (t_n = n·gap/v); halka kapalıyken (hapis) ses de susar.
+
+## Dersler (E020, seslendirmesiz, parlak/gündüz)
+- Konu öznesini arka plandan `rembg` (isnet-general-use + alpha matting) ile ayırıp yazıyı arkasına koy; ama kanat/gövde harfleri örtmemeli: "BEE" sola yaslandı, kanat ucu yalnız son harfin köşesini örter.
+- Döngü dikişi: kare 0'daki vuruş "punch" ölçeği ön gösterimde (t<0) de aynı olmalı, yoksa dikişte kamera sıçrar (dikiş farkı 20 → 6,5; outro dalına Vignette+Grain eklenince 1,2, tipik adım 0,87). Outro dalında da Vignette + Grain + aynı Watermark opaklığı.
+- Hex geçişi kare başına ~35 birim ortalama parlaklık sıçratır ama >%60 parlak kare yoktur; 1 sn'de en çok 2 büyük dönüş. `tools/qa_video.py` bunu ölçer.
+- Anton `fitText` ile `fontFamily: 'Anton'` ölçülür; `fonts.ts`'e eklenmeden ölçüm yanlış çıkar. Açık Arapça bloğu için kapsayıcı genişliği ≤ 740 px (x 180–900).
+- Okuma süresi: tek vuruşta gelen satırlar aynı `out`'a kadar birikir; toplam kelime sayısına göre 1 sn + 0,25 sn/kelime hesapla.
