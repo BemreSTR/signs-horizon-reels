@@ -4,7 +4,13 @@ import {renderStill, selectComposition} from '@remotion/renderer';
 import path from 'node:path';
 import fs from 'node:fs';
 const [, , id, outDir, ...times] = process.argv;
-const BROWSER = '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell';
+// Chrome yolu: CHROME ortam değişkeni, yoksa Playwright'ın headless shell'i (bkz. tools/render.sh)
+import {globSync} from 'node:fs';
+const BROWSER = process.env.CHROME || [
+  '/opt/pw-browsers/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell',
+  `${process.env.HOME}/.cache/ms-playwright/chromium_headless_shell-*/chrome-headless-shell-linux64/chrome-headless-shell`,
+].flatMap((g) => globSync(g))[0];
+if (!BROWSER) throw new Error('Chrome bulunamadı: export CHROME=/yol/chrome');
 fs.mkdirSync(outDir, {recursive: true});
 const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts'), publicDir: path.resolve('public')});
 const comp = await selectComposition({serveUrl, id, browserExecutable: BROWSER});

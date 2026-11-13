@@ -1,0 +1,18 @@
+# Python bağımlılıkları (ses sentezi, master, QA, görsel işleme). Kurulum: pip install -r requirements.txt
+# (sistem Python'u "externally managed" ise: pip install --break-system-packages -r requirements.txt)
+# Sürümler E020 sırasında çalışan ortamdan; alt sınır olarak oku.
+numpy>=2.5
+scipy>=1.18
+soundfile>=0.14
+pyloudnorm>=0.2
+pocketsphinx>=5.0      # tools/align.py (E015 zorunlu hizalama)
+pillow>=12.3
+
+# Konu özneyi arka plandan ayırma (tools/cutout.py, E020) ve kapak düzeltme (tools/e019_cover_fill.py)
+rembg>=2.0.87
+onnxruntime>=1.29
+PyMatting>=1.1.16
+numba>=0.68
+pooch>=1.9
+scikit-image>=0.26
+opencv-python-headless>=5.0

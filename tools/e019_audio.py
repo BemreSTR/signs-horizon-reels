@@ -19,7 +19,8 @@ TOTAL_F = 2268
 TOTAL = TOTAL_F / FPS            # 75.6 s: voice 71.81 s + tail + 3 s outro
 N = int(round(TOTAL * SR))
 EP_END = 72.6                    # the outro starts here
-SCRATCH = os.environ.get('SCRATCH', '/tmp/claude-0/-home-claude/5eec683d-63cb-5292-9ba4-185d83c7b5da/scratchpad')
+import tempfile
+SCRATCH = os.environ.get('SCRATCH', tempfile.gettempdir())
 
 # mirrors src/e019/timeline.ts
 K = dict(hookOut=4.35, medina=4.5, khawla=6.073, anger=7.027, quote=9.835, custom=12.539, trap=15.19, notDivorced=15.856, notWife=17.358,

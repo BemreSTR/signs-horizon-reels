@@ -1,0 +1,118 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kuranmucizeleri/timing.schema.json",
+  "title": "Episode timing files",
+  "description": "Formats of the files produced by tools/ingest.py under episodes/NNN-slug/timing/ and synced to studio/public/ep/eNNN/. Rationale: docs/10-teknik-mimari.md section 4",
+  "$defs": {
+    "words": {
+      "title": "words.json",
+      "description": "Remotion Caption[] (from @remotion/captions). `text` includes the leading space before each word.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text", "startMs", "endMs", "timestampMs", "confidence"],
+        "properties": {
+          "text": { "type": "string" },
+          "startMs": { "type": "number", "minimum": 0 },
+          "endMs": { "type": "number", "minimum": 0 },
+          "timestampMs": { "type": ["number", "null"] },
+          "confidence": { "type": ["number", "null"], "minimum": 0, "maximum": 1 },
+          "pageBreakAfter": { "type": "boolean" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "cues": {
+      "title": "cues.json",
+      "type": "object",
+      "required": ["version", "fps", "audioDurationMs", "cues"],
+      "properties": {
+        "version": { "const": 1 },
+        "fps": { "type": "integer", "minimum": 1 },
+        "audioDurationMs": { "type": "number", "minimum": 0 },
+        "cues": {
+          "type": "object",
+          "propertyNames": { "pattern": "^[a-z][a-z0-9_]*$" },
+          "additionalProperties": {
+            "type": "object",
+            "required": ["ms", "frame", "anchor", "wordIndex", "word"],
+            "properties": {
+              "ms": { "type": "number", "minimum": 0 },
+              "frame": { "type": "integer", "minimum": 0 },
+              "anchor": { "enum": ["start", "end"] },
+              "wordIndex": { "type": "integer", "minimum": 0 },
+              "word": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "segments": {
+      "title": "segments.json",
+      "description": "Sentence and paragraph (beat) boundaries.",
+      "type": "object",
+      "required": ["sentences", "paragraphs"],
+      "properties": {
+        "sentences": { "type": "array", "items": { "$ref": "#/$defs/span" } },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "allOf": [
+              { "$ref": "#/$defs/span" },
+              {
+                "type": "object",
+                "properties": {
+                  "paragraph": { "type": "integer", "minimum": 1, "description": "¶ number from 03-senaryo.md" },
+                  "beat": { "enum": ["B0", "B1", "B2", "B3", "B4", "B5", "B6", "B7"] }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "span": {
+      "type": "object",
+      "required": ["firstWord", "lastWord", "startMs", "endMs", "text"],
+      "properties": {
+        "firstWord": { "type": "integer", "minimum": 0 },
+        "lastWord": { "type": "integer", "minimum": 0 },
+        "startMs": { "type": "number", "minimum": 0 },
+        "endMs": { "type": "number", "minimum": 0 },
+        "text": { "type": "string" }
+      }
+    },
+    "pauses": {
+      "title": "pauses.json",
+      "description": "Gaps between words longer than 250 ms, merged with ffmpeg silencedetect findings.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["startMs", "endMs", "afterWordIndex", "source"],
+        "properties": {
+          "startMs": { "type": "number", "minimum": 0 },
+          "endMs": { "type": "number", "minimum": 0 },
+          "afterWordIndex": { "type": "integer", "minimum": -1 },
+          "source": { "enum": ["alignment", "silencedetect", "inserted"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "cueAnchors": {
+      "title": "cue-anchors.json",
+      "description": "Produced by tools/script_build.py before audio exists: which spoken word each cue is attached to.",
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["wordIndex", "anchor"],
+        "properties": {
+          "wordIndex": { "type": "integer", "minimum": 0 },
+          "anchor": { "enum": ["start", "end"] },
+          "word": { "type": "string" }
+        }
+      }
+    }
+  }
+}

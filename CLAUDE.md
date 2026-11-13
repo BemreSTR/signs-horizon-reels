@@ -1,5 +1,6 @@
 # Çalışma notları
-- Konuşma Türkçe; videodaki metin ve ses İngilizce. Kurallar projedeki dokümanlarda; burada tekrarlama.
+- Konuşma Türkçe; videodaki metin ve ses İngilizce. Kurallar `docs/` (ve `growth/`) altında; dizin: `docs/README.md`. Yeni bölümden önce `docs/13-hatalar-ve-dersler.md` ön kontrolü + aşağıdaki dersler okunur; burada tekrarlama.
+- **Depo = kaynak gerçek.** Claude Project (`signs-in-the-horizon`) kopyadır. Her bölüm bitince AYNI commit'te: kod, `public/ep/<id>/`, `tools/eNNN_audio.py`, `episodes/<id>.md`, bu dosyaya dersler, README bölüm tablosu, `docs/05` + `docs/12` kayıtları, yeni sabit kural varsa ilgili `docs/` dosyası; sonra push, sonra Project kopyalarını güncelle. Yeni bağımlılık → `package.json` / `requirements.txt`. Yeni makinede çalışmayacak mutlak yol/ortam varsayımı yazma (`CHROME`, `SCRATCH` ortam değişkenleri).
 - Cue zamanları `public/ep/<id>/cues.json` (ses ana saat). Animasyon yalnızca kare/zamandan türer (CSS geçişi yok).
 - Teslim: `out/<ID>.mp4`, `captions.srt`, `kapak1–3.png` (SendUserFile). Kaynak kod bu depoda kalır; iş bitince commit + push et (geçici ortam silinir).
 - Render: `tools/render.sh`, master: `tools/master.py`. Kontrol: bozuk kare taraması, döngü dikişi, `mix_report.py`, anahtar karelere bakış.
