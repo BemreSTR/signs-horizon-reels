@@ -32,7 +32,7 @@ npx remotion still src/index.ts E020Cover1 out/test.png --frame=0 --browser-exec
 | E017 | The Two Rats (85 sn) | seslendirmesiz | `src/e017/` | `tools/e017_audio.py` | `episodes/e017-the-two-rats.md` |
 | E018 | The Emperor's Questions | seslendirmesiz | `src/e018/` | `tools/e018_audio.py` | `episodes/e018-the-emperors-questions.md` |
 | E019 | She Who Disputes (58:1–4) | ElevenLabs sesli | `src/e019/` | `tools/e019_audio.py`, `e019_srt.py` | `episodes/e019-she-who-disputes.md` (+ klasör: senaryo, ElevenLabs metni) |
-| E020 | That Bee Is a She (16:68–69, 38 sn, parlak/gündüz, döngü) | seslendirmesiz | `src/e020/` | `tools/e020_audio.py` | `episodes/e020-that-bee-is-a-she.md` |
+| E020 | That Bee Is a She (16:68–69, 38 sn, parlak/gündüz, döngü) | seslendirmesiz | `src/e020/` | `tools/e020_audio.py` | `episodes/e020-that-bee-is-a-she.md` (+ sesli sürüm: `tools/e020_voice.py`, `SUFFIX=_voice python3 tools/master.py E020 38.0`) |
 
 `src/<id>/` her bölümün sahneleri, zaman çizelgesi (`timeline.ts`), kapakları (`Covers.tsx`); ortak parçalar `src/lib`, `src/components`, `src/brandkit` (marka outro, filigran). Bölüm varlıkları `public/ep/<id>/`.
 

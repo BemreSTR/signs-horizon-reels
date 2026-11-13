@@ -36,3 +36,12 @@ Seslendirmesiz, 38,0 sn (35,0 içerik + 3 sn marka outro), 120 BPM ızgara (1 vu
 ## Teslim (13 Kas 2026)
 - `out/E020.mp4` 1080×1920, 30 fps, 38,0 sn, −14,0 LUFS / TP −1,1. Kod: `src/e020/{timeline,tokens,Hex,Type,E020,Covers}.tsx`; ses: `tools/e020_audio.py` (kök = kanat vuruşu ~232 Hz = Sib; her vuruşta kuru "slam": 150–600 Hz gövde + 3 kHz üstü; hex geçişi = karo tıkırtıları; ayet = fiil başına yükselen Sib–Re–Fa; dürüst mercekte neredeyse sessiz; kuyrukta vızıltı kare 0 vuruşuna büyür); kontrol: `tools/qa_video.py` (bozuk/donuk kare yok, >%60 parlak kare yok, 1 sn’de ≤2 büyük parlaklık dönüşü, döngü dikişi 1,23 / tipik 0,87).
 - Arı kesitleri: `rembg` (isnet-general-use + alpha matting) → `public/ep/e020/{hero,drone}_cut.png`.
+
+## Sesli sürüm (13 Kas 2026)
+Video aynı (`out/E020_silent.mp4`); anlatım üstüne eklendi: `out/E020_voice.mp4` (38,0 sn, −14,0 LUFS / TP −1,2). ElevenLabs "Emin" (v4, Stability 50, Similarity 75), tek take `public/ep/e020/voice.mp3` (32,3 sn). Saat yine vuruş ızgarası: `tools/e020_voice.py` take'i sessizliklerden 15 satıra keser ve her satırı ekrandaki vuruşa yerleştirir (konuşma 0–34,3 sn).
+Çalıştırma: `PYTHONPATH=tools python3 tools/e020_audio.py && PYTHONPATH=tools python3 tools/e020_voice.py && SUFFIX=_voice python3 tools/master.py E020 38.0`.
+Miks: müzik/efekt −10 dB, konuşma altında yavaş zarfla (atak 40 ms, bırakma 450 ms) ek −13 dB (alt 160 Hz yalnız −2,5 dB); konuşma bandı payı medyan 22,5 / alt %10 22,0 dB.
+
+Anlatım metni (ElevenLabs'e yapıştırılan):
+> That bee... is a she. / Every honeybee you see collecting nectar is female. The males never forage. Every worker in the hive is female. / Now, how does the Quran speak to the bee? / Make homes in the mountains. / Then eat from all the fruits. / Follow the ways of your Lord. / Classical grammar allows the feminine. Biology says female. We claim nothing more. / A drink of varying colors. / The smallest worker in the hive... is addressed as "you."
+Dürüst mercek korunur: "Kur'an önceden bildirdi" denmez; ayet çevirileri ekrandaki "OUR TRANSLATION" ile aynı. Sesi yayından önce telefonda dinle (H38).
