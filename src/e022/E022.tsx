@@ -131,7 +131,7 @@ export const Overlay: React.FC<{t: number}> = ({t}) => (
     <Chip t={t} at={49.6} out={55.1} text="17:23 · IF ONE OR BOTH REACH OLD AGE WITH YOU" y={270} size={21} color={C.mist} />
     <ArabicBlock t={t} lines={V.linesA} start={49.8} step={0.9} out={55.1} top={310} />
     <Lines t={t} out={55.1} y={640} cap={80} weight={600} italic colors={[C.ivory, C.gold300]} items={[[50.6, '“LOWER TO THEM THE WING'], [51.6, 'OF HUMILITY, OUT OF MERCY,']]} />
-    <Chip t={t} at={52.6} out={55.1} text="IBN KATHIR · HUMBLE TOWARD THEM IN YOUR ACTIONS" y={860} size={21} color={C.mist} />
+    <Chip t={t} at={52.6} out={55.1} text="IBN KATHIR · HUMBLE TOWARD THEM IN YOUR ACTIONS" y={860} size={19} color={C.mist} />
 
     {/* 55.2 – 62 · 17:24, second half */}
     <Under t={t} a={55.3} b={61.7} y={32} h={40} k={0.58} />

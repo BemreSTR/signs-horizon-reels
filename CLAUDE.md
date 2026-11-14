@@ -57,3 +57,13 @@
 - Ses: yatak (drone) frekanslarını 1/döngü katlarına kilitle (`round(f*70)/70`), dikişte tık olmaz. `curve()` bütün parça uzunluğunda; yerel katman için `under(sig, t0, noktalar)`.
 - Olay-ses eşlemesi: halka doğumu = perdeli ping, kasılma = alçak atım, gövde sarsıntısı = vuruş, hurma düşüşü = düşüş süresi (`sqrt(2Δ/g)`) kadar sonra yumuşak iniş. Çizelgedeki sabitler (`PULSES`, `SHAKES`, `FALLS`, `RINGS`) ses betiğinde aynen yinelenir; değişirse ikisi birlikte.
 - Hassas an (ölümü temenni, 19:23): ayet metni olarak, tefsirdeki bağlamıyla ver; yalnız metinsel gözlem ekle ("sonraki âyet: üzülme"), yorum ve çağrı ekleme. Tefsir İngilizce okunduysa bölüm notunda "Arapça/basılı teyit" bayrağı açık kalır.
+
+## Dersler (E022, seslendirmesiz, Risale-i Nur + ayet)
+- Kaynak dürüstlüğü: Risale alıntısı Türkçe asıldan, tam yer adıyla (Onuncu Söz, İkinci Hakikat) ve "SAID NURSI · TURKISH MUSLIM SCHOLAR" künyesiyle; çeviri "OUR TRANSLATION". Ahiret basamağı gibi alıntılayamadığın adımı alıntı gibi yazma, "step toward the hereafter" diye özetle. Nüshalar arası farklı örnekleri (tavuk/tavşan) atla; basılı nüsha teyidi bölüm notunda bayrak olarak kalır.
+- Dürüst mercek yalnız "kanıt değil" demekle bitmez: karşı açıklamayı (biyologlar bakımı evrimle açıklar) ve yazarın aynı olguyu nasıl okuduğunu iki ayrı satırda göster.
+- Çok sahneli tek çekim: kamera = dünya merkezi + log-uzay zoom, katmanlar paralaks (0,25/0,5/1). Pencereye yaklaşıp içeriye girmek için iç mekânı ayrı bileşen yap, pencerede clip'le; zoom 6× iken iç mekân zaten ekranı doldurur.
+- Hayvan siluetinde (dişi aslan, yavru) kenar ışığı (amber çizgi) + göz parıltısı, yavruda kısa burun; yoksa iki siyah leke "tanınmaz" okunur.
+- `tools/sfxlib.py` NOTE tablosunda `B` ve `G#` yoktu (`KeyError`); eklendi. Yeni nota adı kullanmadan tabloyu kontrol et.
+- Ses: olay çizelgesini (MILK, THREADS) ses betiğinde aynen yinele; müzik kutusu ninnisi gibi melodik katmanı sahnenin süresine (beşik 23,4–28,0) yasla, ilk 2,9 sn minör → hediyeden sonra majör üçlü. Premix −14,6 LUFS, master −14,0/TP −1,0.
+- Teslim öncesi: `safezone.py` küçük puntolu çipte bile 9 px taştı (size 21 → 19); uzun çipleri `fit` ile ya da ≤ 19 px yap. Kare başına centroid ölçümünde pencereyi satır girişlerinden ≥ 1 sn sonra aç (stagger fade-in 0,03 s/harf), yoksa yanlış "titreme" ölçülür.
+- Arka plan render'i: `cmd &` kabuk çağrısı bitince bile süreç yaşadı, ama bildirim "tamamlandı" der; gerçek bitiş `Encoded N/N` + log'daki `EXIT 0` satırıdır.
