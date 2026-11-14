@@ -44,7 +44,7 @@ Dokümanlar ilk olarak E001–E014'ü üreten **eski depoda** ("kuranmucizeleri2
 
 Eski depoda kalan, buraya **taşınmayanlar:** `episodes/adaylar/` (aday taslaklar), E001–E014 kaynakları, `acilislar/*.jpg` kontak görselleri, eski kök README/CLAUDE (Project'te "kuranmucizeleri2" düzenini anlatan sürümler; bu depodaki `README.md` ve `CLAUDE.md` bunların yerine geçer).
 
-Bu depoda **H## yerine** E015–E021 dersleri kök `CLAUDE.md`'dedir. İki liste birlikte okunur: ön kontrol ([13](13-hatalar-ve-dersler.md)) + `CLAUDE.md` dersleri.
+Bu depoda **H## yerine** E015–E022 dersleri kök `CLAUDE.md`'dedir. İki liste birlikte okunur: ön kontrol ([13](13-hatalar-ve-dersler.md)) + `CLAUDE.md` dersleri.
 
 ## Güncelleme kuralı
 

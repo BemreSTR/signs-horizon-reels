@@ -22,6 +22,9 @@ import {TOTAL_FRAMES as E020_FRAMES} from './e020/timeline';
 import {E021} from './e021/E021';
 import {E021Cover1, E021Cover2, E021Cover3} from './e021/Covers';
 import {TOTAL_FRAMES as E021_FRAMES} from './e021/timeline';
+import {E022} from './e022/E022';
+import {E022Cover1, E022Cover2, E022Cover3} from './e022/Covers';
+import {TOTAL_FRAMES as E022_FRAMES} from './e022/timeline';
 
 export const Root: React.FC = () => (
   <>
@@ -54,5 +57,9 @@ export const Root: React.FC = () => (
     <Composition id="E021Cover2" component={E021Cover2} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="E021Cover3" component={E021Cover3} durationInFrames={1} fps={FPS} width={W} height={H} />
     <Composition id="E021" component={E021} durationInFrames={E021_FRAMES} fps={FPS} width={W} height={H} />
+    <Composition id="E022" component={E022} durationInFrames={E022_FRAMES} fps={FPS} width={W} height={H} />
+    <Composition id="E022Cover1" component={E022Cover1} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="E022Cover2" component={E022Cover2} durationInFrames={1} fps={FPS} width={W} height={H} />
+    <Composition id="E022Cover3" component={E022Cover3} durationInFrames={1} fps={FPS} width={W} height={H} />
   </>
 );

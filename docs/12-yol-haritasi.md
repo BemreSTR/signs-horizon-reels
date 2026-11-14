@@ -2,9 +2,9 @@
 
 Durum, kararlar ve bölüm kaydı. Yayın sonrası metrikler [growth/metrikler.csv](../growth/metrikler.csv)'de (`python3 tools/growth_report.py` → [growth/rapor.md](../growth/rapor.md)).
 
-> Depo notu: Project'teki sürüm 2026-11-02'de E014'te kalmıştı. E015–E021 satırları depodaki bölüm notlarından eklendi (aşağıda). Güncel bölümler `episodes/` altındadır.
+> Depo notu: Project'teki sürüm 2026-11-02'de E014'te kalmıştı. E015–E022 satırları depodaki bölüm notlarından eklendi (aşağıda). Güncel bölümler `episodes/` altındadır.
 
-**Durum (2026-11-02, sonrası E021'e kadar işlendi):** Altyapı, araçlar ve bileşen kiti kuruldu; 21 bölüm üretildi. Öncelik: düzenli yayın (hedef günde 2), stok, delil ve karşılaştırmalı din içeriği ([growth/strateji](../growth/strateji.md)). İleride: hafif formatlar (One Word, Read It Again), kanca A/B denemeleri, bir bölümde insan sesi denemesi, başka dillere uyarlama, uzun format derlemeler.
+**Durum (2026-11-02, sonrası E022'ye kadar işlendi):** Altyapı, araçlar ve bileşen kiti kuruldu; 22 bölüm üretildi. Öncelik: düzenli yayın (hedef günde 2), stok, delil ve karşılaştırmalı din içeriği ([growth/strateji](../growth/strateji.md)). İleride: hafif formatlar (One Word, Read It Again), kanca A/B denemeleri, bir bölümde insan sesi denemesi, başka dillere uyarlama, uzun format derlemeler.
 
 ## Kararlar
 

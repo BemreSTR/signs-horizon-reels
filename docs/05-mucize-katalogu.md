@@ -2,7 +2,7 @@
 
 Yapılan bölümler, seriler, aday konular ve kullanılmayacaklar tek tabloda. Konu seçimi (K0) buradan yapılır; yayın verisine göre öncelik: [growth/strateji §4](../growth/strateji.md#4-i̇çerik-hatları).
 
-> Depo notu: Bu tablo Project'ten alındığı hâliyle E014'te (2026-11-02) bitiyor. **E015–E021 bu depodadır** ve `episodes/` altındaki bölüm notlarında kayıtlıdır; sıradaki güncellemede aşağıdaki "Yapılanlar" tablosuna eklenmeli. `episodes/adaylar/` klasörü bu depoda yoktur (eski depoda kaldı); aday dosya bağlantıları bu yüzden kırıktır, yalnızca konu fikri olarak oku.
+> Depo notu: Bu tablo Project'ten alındığı hâliyle E014'te (2026-11-02) bitiyor. **E015–E022 bu depodadır** ve `episodes/` altındaki bölüm notlarında kayıtlıdır; sıradaki güncellemede aşağıdaki "Yapılanlar" tablosuna eklenmeli. `episodes/adaylar/` klasörü bu depoda yoktur (eski depoda kaldı); aday dosya bağlantıları bu yüzden kırıktır, yalnızca konu fikri olarak oku.
 
 > **Aday dosyaları doğrulanmamış taslaktır** (`episodes/adaylar/`). İçlerinde elle yazılmış Arapça, kaynaksız sayı ve "science proves" dili olabilir; ekrana "telemetri" yazıları (ör. `MATCH 0/16`) önerenler H73 ve H80'e aykırıdır. Bir aday seçilince araştırma sıfırdan, birincil kaynaktan yapılır ve K1'de `dogruluk-denetcisi`'nden geçer. Adaylardaki ses notları ("müzik yok" vb.) eskidir; geçerli kural [09](09-ses-tasarimi.md).
 
@@ -24,7 +24,7 @@ Yapılan bölümler, seriler, aday konular ve kullanılmayacaklar tek tabloda. K
 | 012 | The Challenge: Necran heyeti ve mübâhele | 3:59–64 · Buhârî 4380 · Müslim 2404 | Delil + Kitap köprüsü |
 | 013 | The Mirror: Âyetü'l-Kürsî'nin halka yapısı | 2:255 · 2:143 | Delil (yapı) |
 | 014 | Where Are the Bodies?: kâinatın temizlikçileri ve el-Kuddûs (Kuddûs 1) | 51:48 · 59:23 · 30. Lem'a | Delil · Risale |
-| 015–021 | → `episodes/` (E019 "She Who Disputes" 58:1; E020 "That Bee Is a She" 16:68–69; E021 "She Wished to Be Forgotten" 3:42 + 19:16–26) | | |
+| 015–022 | → `episodes/` (E019 "She Who Disputes" 58:1; E020 "That Bee Is a She" 16:68–69; E021 "She Wished to Be Forgotten" 3:42 + 19:16–26; E022 "The Lion Who Gave Away Her Meal" Risale-i Nur Onuncu Söz + 17:24) | | |
 
 ## Seriler
 

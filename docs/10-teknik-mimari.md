@@ -2,7 +2,7 @@
 
 Remotion projesinin yapısı, cue tabanlı zaman çizelgesi, ses hizalama, araçlar ve render.
 
-> **Depo notu (önemli):** Bu doküman Project'ten, E001–E014'ün üretildiği eski "kuranmucizeleri2" (macOS M2, `studio/` klasörü) düzeninden alındı. **Bu depoda (E015–E021) Remotion kökte** durur: `src/`, `public/`, `remotion.config.ts`; araçlar `tools/` altında ve eski `render_episode.py` / `qa.py` / `ingest.py` yerine `tools/render.sh`, `tools/master.py`, `tools/qa_video.py`, `tools/safezone.py`, `tools/stills.mjs`, `tools/sfxlib.py`, `tools/eNNN_audio.py` vardır. Güncel çalışma akışı için kök [README.md](../README.md) ve `episodes/*.md` geçerlidir; bu dosya tasarım gerekçeleri (determinizm, cue mantığı, H## tuzakları) için tutulur. `studio/...` yollarını `...` olarak oku.
+> **Depo notu (önemli):** Bu doküman Project'ten, E001–E014'ün üretildiği eski "kuranmucizeleri2" (macOS M2, `studio/` klasörü) düzeninden alındı. **Bu depoda (E015–E022) Remotion kökte** durur: `src/`, `public/`, `remotion.config.ts`; araçlar `tools/` altında ve eski `render_episode.py` / `qa.py` / `ingest.py` yerine `tools/render.sh`, `tools/master.py`, `tools/qa_video.py`, `tools/safezone.py`, `tools/stills.mjs`, `tools/sfxlib.py`, `tools/eNNN_audio.py` vardır. Güncel çalışma akışı için kök [README.md](../README.md) ve `episodes/*.md` geçerlidir; bu dosya tasarım gerekçeleri (determinizm, cue mantığı, H## tuzakları) için tutulur. `studio/...` yollarını `...` olarak oku.
 
 ## 1. Yığın ve kararlar
 

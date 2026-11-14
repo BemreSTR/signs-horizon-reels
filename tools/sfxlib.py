@@ -175,7 +175,7 @@ def accel_travel(dur, rate0=2.4, rate1=34.0):
     return out / np.abs(out).max()
 
 # ---------------------------------------------------------------- instruments
-NOTE = {'C': 0, 'C#': 1, 'D': 2, 'Eb': 3, 'E': 4, 'F': 5, 'F#': 6, 'G': 7, 'A': 9, 'Bb': 10}
+NOTE = {'C': 0, 'C#': 1, 'D': 2, 'Eb': 3, 'E': 4, 'F': 5, 'F#': 6, 'G': 7, 'G#': 8, 'A': 9, 'Bb': 10, 'B': 11}
 def hz(name):
     n, o = name[:-1], int(name[-1]); return 440.0 * 2 ** ((NOTE[n] - 9) / 12 + (o - 4))
 

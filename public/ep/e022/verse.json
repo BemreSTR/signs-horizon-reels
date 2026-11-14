@@ -1,0 +1,13 @@
+{
+  "source": "Quran.com API v4 /quran/verses/uthmani (text_uthmani), read via WebFetch on 14 Nov 2026 (the shell cannot reach api.quran.com). 17:24 is the full verse; the video shows it in two halves. Re-run a verse check against quran.com before publishing (H81).",
+  "translationName": "Our translation",
+  "verses": {
+    "17:24": {
+      "key": "17:24",
+      "arabic": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "linesA": [["وَٱخْفِضْ", "لَهُمَا", "جَنَاحَ"], ["ٱلذُّلِّ", "مِنَ", "ٱلرَّحْمَةِ"]],
+      "linesB": [["وَقُل", "رَّبِّ", "ٱرْحَمْهُمَا"], ["كَمَا", "رَبَّيَانِى", "صَغِيرًا"]],
+      "translation": "Lower to them the wing of humility, out of mercy, and say: My Lord, have mercy on them as they raised me when I was small."
+    }
+  }
+}

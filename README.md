@@ -34,6 +34,7 @@ npx remotion still src/index.ts E020Cover1 out/test.png --frame=0 --browser-exec
 | E019 | She Who Disputes (58:1–4) | ElevenLabs sesli | `src/e019/` | `tools/e019_audio.py`, `e019_srt.py` | `episodes/e019-she-who-disputes.md` (+ klasör: senaryo, ElevenLabs metni) |
 | E020 | That Bee Is a She (16:68–69, 38 sn, parlak/gündüz, döngü) | seslendirmesiz | `src/e020/` | `tools/e020_audio.py` | `episodes/e020-that-bee-is-a-she.md` (+ sesli sürüm: `tools/e020_voice.py`, `SUFFIX=_voice python3 tools/master.py E020 38.0`) |
 | E021 | She Wished to Be Forgotten (Meryem 3:42 + 19:16–26, 70 sn, gece-altın, döngü) | seslendirmesiz, müzikli | `src/e021/` | `tools/e021_audio.py` | `episodes/e021-she-wished-to-be-forgotten.md` |
+| E022 | The Lion Who Gave Away Her Meal (Said Nursi, Onuncu Söz + Kur'an 17:24, 70 sn, gün batımı→gece, döngü) | seslendirmesiz, müzikli | `src/e022/` | `tools/e022_audio.py` | `episodes/e022-the-lion-who-gave-away-her-meal.md` |
 
 `src/<id>/` her bölümün sahneleri, zaman çizelgesi (`timeline.ts`), kapakları (`Covers.tsx`); ortak parçalar `src/lib`, `src/components`, `src/brandkit` (marka outro, filigran). Bölüm varlıkları `public/ep/<id>/`.
 
@@ -70,7 +71,7 @@ python3 tools/master.py E015 49.9      # E019 için: tools/master.py E019 75.6
 
 | Yer | İçerik |
 |---|---|
-| [`CLAUDE.md`](CLAUDE.md) | Çalışma notları ve **E015–E021 dersleri** (en güncel, en kısa kural kaynağı; her bölümden sonra güncellenir) |
+| [`CLAUDE.md`](CLAUDE.md) | Çalışma notları ve **E015–E022 dersleri** (en güncel, en kısa kural kaynağı; her bölümden sonra güncellenir) |
 | [`docs/README.md`](docs/README.md) | Doküman dizini, değişmez ilkeler, eski ↔ yeni düzen eşlemesi |
 | [`docs/08-gorsel-dil.md`](docs/08-gorsel-dil.md) | Görsel dil: renk, tipografi, güvenli alan, ayet sunumu, kapak, filigran |
 | [`docs/09-ses-tasarimi.md`](docs/09-ses-tasarimi.md) | Ses: katmanlar, miks hedefleri (−14 LUFS), eşleme |
