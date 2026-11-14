@@ -2,7 +2,7 @@
 on the 120 BPM grid of src/e022/timeline.ts. Key = D. Minor while she is starving (0-2.9), major from the gift (2.9) on. Events mirrored
 from the film: the meat slides 2.9-4.2, a thread of light at 4.0, a pluck for every fig that the milk reaches (MILK), a music-box lullaby in
 the room (23.4-28.0), rising motes in the wide shot (29.4-44), the wing lowering 49.3-53.3. The drone is phase-locked to the 70 s loop.
-Run from the repo root: PYTHONPATH=tools python3 tools/e022_audio.py  ->  timing/mix.wav   then: python3 tools/master.py E022 67.0"""
+Run from the repo root: PYTHONPATH=tools python3 tools/e022_audio.py  ->  timing/mix.wav   then: python3 tools/master.py E022 70.0"""
 import os
 import numpy as np
 from scipy.signal import fftconvolve

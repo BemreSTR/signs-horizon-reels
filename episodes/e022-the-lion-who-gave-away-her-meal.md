@@ -43,4 +43,6 @@ Sabit yorum: *"Nursi offers this as a sign of mercy, not a lab proof; biologists
 
 ## Teslim notları
 - Kod: `src/e022/{timeline,World,E022,Covers}.tsx`; ses: `tools/e022_audio.py` (D tonu: ilk 2,9 sn minör, hediyeden sonra majör üçlü; incir süt vuruşları MILK dizisinden; beşik müzik kutusu ninnisi; kanat tüyü başına bir nota; drone 70 sn'ye kilitli). `tools/sfxlib.py` NOTE tablosuna `B` ve `G#` eklendi.
-- Ölçümler render sonrası aşağıya eklenir.
+- Ölçüm (15 Kas 2026): `out/E022.mp4` 1080×1920, 30 fps, 70,0 sn (video+ses), −14,0 LUFS / TP −1,0 dBTP, LRA 5,4. `qa_video.py`: bozuk/donuk kare yok, >%60 parlak kare yok, parlaklık dönüşü 2/sn; döngü dikişi 1,46 (kare farkı tipik 0,45; outro'nun son karelerinde normal adım, E021 ile aynı düzey). Sabit yazı döneminde dikey ağırlık merkezi aralığı 0,01–0,06 px (kapanış satırı 0,11 px; stagger fade-in bitiminde). `safezone.py`: yazı x 183–893; ilk render'da 52,6–55,1 sn'deki İbn Kesîr çipi x 909'a taşmıştı → boyut 21→19, yeniden render. Kalan `<<` işaretleri sahne öğeleridir (aslan, ışık zerreleri, ev).
+- `tools/master.py` ikinci argümanı **70.0** olmalı (67.0 verilirse video 67 sn'de kesilip marka outro'nun sonu gider; ilk denemede böyle oldu, düzeltildi; E021 docstring'indeki 67.0 yazım hatası da düzeltildi).
+- Açık doğrulama bayrakları: Risale alıntıları basılı Söz Basım nüshasıyla teyit edilmedi; İbn Kesîr İngilizce okundu (Arapça/basılı teyit); 17:23 çevirisi bize ait; ahiret adımı özet (alıntı değil); aslanın dişi olması kaynakta yok (görsel tercih).

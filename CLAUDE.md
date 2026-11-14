@@ -64,6 +64,6 @@
 - Çok sahneli tek çekim: kamera = dünya merkezi + log-uzay zoom, katmanlar paralaks (0,25/0,5/1). Pencereye yaklaşıp içeriye girmek için iç mekânı ayrı bileşen yap, pencerede clip'le; zoom 6× iken iç mekân zaten ekranı doldurur.
 - Hayvan siluetinde (dişi aslan, yavru) kenar ışığı (amber çizgi) + göz parıltısı, yavruda kısa burun; yoksa iki siyah leke "tanınmaz" okunur.
 - `tools/sfxlib.py` NOTE tablosunda `B` ve `G#` yoktu (`KeyError`); eklendi. Yeni nota adı kullanmadan tabloyu kontrol et.
-- Ses: olay çizelgesini (MILK, THREADS) ses betiğinde aynen yinele; müzik kutusu ninnisi gibi melodik katmanı sahnenin süresine (beşik 23,4–28,0) yasla, ilk 2,9 sn minör → hediyeden sonra majör üçlü. Premix −14,6 LUFS, master −14,0/TP −1,0.
+- Ses: olay çizelgesini (MILK, THREADS) ses betiğinde aynen yinele; müzik kutusu ninnisi gibi melodik katmanı sahnenin süresine (beşik 23,4–28,0) yasla, ilk 2,9 sn minör → hediyeden sonra majör üçlü. Premix −14,6 LUFS, master −14,0/TP −1,0. `tools/master.py E022 70.0`: ikinci argüman toplam süre (içerik + outro); 67.0 verilirse video outro'suz 67 sn'de kesilir.
 - Teslim öncesi: `safezone.py` küçük puntolu çipte bile 9 px taştı (size 21 → 19); uzun çipleri `fit` ile ya da ≤ 19 px yap. Kare başına centroid ölçümünde pencereyi satır girişlerinden ≥ 1 sn sonra aç (stagger fade-in 0,03 s/harf), yoksa yanlış "titreme" ölçülür.
 - Arka plan render'i: `cmd &` kabuk çağrısı bitince bile süreç yaşadı, ama bildirim "tamamlandı" der; gerçek bitiş `Encoded N/N` + log'daki `EXIT 0` satırıdır.

@@ -2,7 +2,7 @@
 Key = D (Dorian / D major when the Qur'an answers her). A pitched ping is born with every ring on screen (RINGS), a low thump with every
 contraction (PULSES), the trunk is knocked on SHAKES and each date lands with a soft thud + a high note (FALLS). During the wish (39-45.4)
 the bed falls away to almost nothing, then comes back warm on "DO NOT GRIEVE". The drone is phase-locked to the 70 s loop.
-Run from the repo root: PYTHONPATH=tools python3 tools/e021_audio.py  ->  timing/mix.wav   then: python3 tools/master.py E021 67.0"""
+Run from the repo root: PYTHONPATH=tools python3 tools/e021_audio.py  ->  timing/mix.wav   then: python3 tools/master.py E021 70.0"""
 import os
 import numpy as np
 from scipy.signal import fftconvolve
