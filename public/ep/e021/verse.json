@@ -1,0 +1,69 @@
+{
+ "source": "Quran.com (text_uthmani), read via the quran.com verse pages/API. 3:42 and 19:26 are excerpts (the clauses shown). Re-run a verse check against quran.com before publishing (H81).",
+ "translationName": "Our translation",
+ "verses": {
+  "3:42": {
+   "key": "3:42",
+   "excerpt": "ٱصْطَفَىٰكِ وَطَهَّرَكِ وَٱصْطَفَىٰكِ عَلَىٰ نِسَآءِ ٱلْعَـٰلَمِينَ",
+   "excerptLines": [
+    [
+     "ٱصْطَفَىٰكِ",
+     "وَطَهَّرَكِ"
+    ],
+    [
+     "وَٱصْطَفَىٰكِ",
+     "عَلَىٰ"
+    ],
+    [
+     "نِسَآءِ",
+     "ٱلْعَـٰلَمِينَ"
+    ]
+   ],
+   "translation": "Allah has chosen you, and purified you, and chosen you above the women of the worlds."
+  },
+  "19:16": {
+   "key": "19:16",
+   "arabic": "وَٱذْكُرْ فِى ٱلْكِتَـٰبِ مَرْيَمَ إِذِ ٱنتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا",
+   "translation": "She withdrew from her family to an eastern place."
+  },
+  "19:17": {
+   "key": "19:17",
+   "arabic": "فَٱتَّخَذَتْ مِن دُونِهِمْ حِجَابًا فَأَرْسَلْنَآ إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا",
+   "translation": "She put up a screen between them and herself."
+  },
+  "19:23": {
+   "key": "19:23",
+   "arabic": "فَأَجَآءَهَا ٱلْمَخَاضُ إِلَىٰ جِذْعِ ٱلنَّخْلَةِ قَالَتْ يَـٰلَيْتَنِى مِتُّ قَبْلَ هَـٰذَا وَكُنتُ نَسْيًا مَّنسِيًّا",
+   "excerptLines": [
+    [
+     "قَالَتْ",
+     "يَـٰلَيْتَنِى"
+    ],
+    [
+     "مِتُّ",
+     "قَبْلَ",
+     "هَـٰذَا"
+    ],
+    [
+     "وَكُنتُ",
+     "نَسْيًا",
+     "مَّنسِيًّا"
+    ]
+   ],
+   "translation": "I wish I had died before this, and been something forgotten, completely forgotten."
+  },
+  "19:26": {
+   "key": "19:26",
+   "excerpt": "فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًا",
+   "excerptLines": [
+    [
+     "فَكُلِى",
+     "وَٱشْرَبِى",
+     "وَقَرِّى",
+     "عَيْنًا"
+    ]
+   ],
+   "translation": "So eat, and drink, and be comforted."
+  }
+ }
+}

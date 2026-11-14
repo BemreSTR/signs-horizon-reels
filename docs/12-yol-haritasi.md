@@ -2,9 +2,9 @@
 
 Durum, kararlar ve bölüm kaydı. Yayın sonrası metrikler [growth/metrikler.csv](../growth/metrikler.csv)'de (`python3 tools/growth_report.py` → [growth/rapor.md](../growth/rapor.md)).
 
-> Depo notu: Project'teki sürüm 2026-11-02'de E014'te kalmıştı. E015–E020 satırları depodaki bölüm notlarından eklendi (aşağıda). Güncel bölümler `episodes/` altındadır.
+> Depo notu: Project'teki sürüm 2026-11-02'de E014'te kalmıştı. E015–E021 satırları depodaki bölüm notlarından eklendi (aşağıda). Güncel bölümler `episodes/` altındadır.
 
-**Durum (2026-11-02, sonrası E020'ye kadar işlendi):** Altyapı, araçlar ve bileşen kiti kuruldu; 20 bölüm üretildi. Öncelik: düzenli yayın (hedef günde 2), stok, delil ve karşılaştırmalı din içeriği ([growth/strateji](../growth/strateji.md)). İleride: hafif formatlar (One Word, Read It Again), kanca A/B denemeleri, bir bölümde insan sesi denemesi, başka dillere uyarlama, uzun format derlemeler.
+**Durum (2026-11-02, sonrası E021'e kadar işlendi):** Altyapı, araçlar ve bileşen kiti kuruldu; 21 bölüm üretildi. Öncelik: düzenli yayın (hedef günde 2), stok, delil ve karşılaştırmalı din içeriği ([growth/strateji](../growth/strateji.md)). İleride: hafif formatlar (One Word, Read It Again), kanca A/B denemeleri, bir bölümde insan sesi denemesi, başka dillere uyarlama, uzun format derlemeler.
 
 ## Kararlar
 
@@ -40,5 +40,6 @@ Durum, kararlar ve bölüm kaydı. Yayın sonrası metrikler [growth/metrikler.c
 | 014 | Where Are the Bodies? (51:48 · 59:23 · 30. Lem'a) | Delil · Risale (Kuddûs 1) | 119,5 | `bodies` 0,68 sn | Three.js sürü ve akbabalar, toprağa dalış, Dünya ağı, ölçek zinciri, çiğ damlalarında güneş | – | K5 bekliyor |
 | 015–019 | bkz. `episodes/e015…e019` notları (E019 = She Who Disputes, 58:1, ElevenLabs sesli) | | | | | | Teslim edildi |
 | 020 | That Bee Is a She (16:68–69) | One Word | 38 s, sessiz, parlak/gündüz, döngülü | – | Bal arısı kesiti metnin arkasında, hex-wipe, kovan petekleri | – | Teslim edildi, commit bdc17b6 |
+| 021 | She Wished to Be Forgotten (Meryem 3:42 + 19:16–26) | Hikâye · dürüst mercek | 70 s, sessiz (müzik/SFX), gece-altın, döngülü | – | Yalnız ışık + hurma, dere, düşen hurmalar; ışık 39–45 sn'de neredeyse söner | – | Teslim edildi (bkz. `episodes/e021-she-wished-to-be-forgotten.md`) |
 
 Süreler outro dahil saniye. Yeni bölüm eklenirken satır kısa tutulur; ayrıntı bölüm klasöründe.

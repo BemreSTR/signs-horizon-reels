@@ -2,7 +2,7 @@
 
 Yaşanan her hatanın kuralı (`H##`). Ayrıntılı hikâyeler git geçmişinde (2026-11-02 öncesi sürüm). **Her bölümden önce ön kontrol uygulanır; bölüm bitince yeni ders sıradaki numarayla eklenir** (başlık + tek satır kural, gerekirse kuralın tek kaynağına bağlantı).
 
-> Not: E015 sonrası dersler (E015–E020) bu dosyada H## olarak değil, deponun kök `CLAUDE.md` dosyasındaki "Dersler (E0NN)" bölümlerinde tutulur.
+> Not: E015 sonrası dersler (E015–E021) bu dosyada H## olarak değil, deponun kök `CLAUDE.md` dosyasındaki "Dersler (E0NN)" bölümlerinde tutulur.
 
 ## Ön kontrol
 

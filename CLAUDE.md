@@ -47,3 +47,13 @@
 - Hex geçişi kare başına ~35 birim ortalama parlaklık sıçratır ama >%60 parlak kare yoktur; 1 sn'de en çok 2 büyük dönüş. `tools/qa_video.py` bunu ölçer.
 - Anton `fitText` ile `fontFamily: 'Anton'` ölçülür; `fonts.ts`'e eklenmeden ölçüm yanlış çıkar. Açık Arapça bloğu için kapsayıcı genişliği ≤ 740 px (x 180–900).
 - Okuma süresi: tek vuruşta gelen satırlar aynı `out`'a kadar birikir; toplam kelime sayısına göre 1 sn + 0,25 sn/kelime hesapla.
+
+## Dersler (E021, seslendirmesiz, hikâye + dürüst mercek)
+- `tools/render.sh` Chrome'u bulamayınca `set -e` + `ls` jokeri yüzünden **sessizce** çıkıyordu (log boş, çıkış 0); düzeltildi. Render sonrası log'da `Encoded N/N` görmeden bitti sayma.
+- Satır uzunluğu: 20–25 karakterlik satırlar `fit` ile ~45–55 px'e iner; ayet çevirisi gibi uzun metni ≤ 20 karakterlik satırlara böl, vurgu cümlelerini tek başına büyük koy.
+- Perde/ekran çizimi: tam boy dikey şeritler "ışık huzmesi" gibi okunur. Altın çubuk + yatayda yumuşatılmış (mask) kumaş + dalgalı etek kullan; üst yazının arkasına girmesin (çubuk y ≈ 790).
+- Küçük ölçekte (uzak hurma, s < 0.5) kenar çizgisi kalınlığını ölçekle (`1.3*s`), yoksa uzak nesne tel kafes gibi parlar.
+- Döngü: kamera itişi t = 0'da başlamasın; yakınlaştırma t < 0 öncesinden doğrusal sürsün (hız sıçraması yok) ve halka doğumları ön gösterim zamanlarını (−4…−1) da içersin. Dikiş farkı outro'nun son karelerindeki normal fark düzeyindeyse (1,4 ≈ 1,5) sorun yok; tipik adım yavaş sahnede 0,4.
+- Ses: yatak (drone) frekanslarını 1/döngü katlarına kilitle (`round(f*70)/70`), dikişte tık olmaz. `curve()` bütün parça uzunluğunda; yerel katman için `under(sig, t0, noktalar)`.
+- Olay-ses eşlemesi: halka doğumu = perdeli ping, kasılma = alçak atım, gövde sarsıntısı = vuruş, hurma düşüşü = düşüş süresi (`sqrt(2Δ/g)`) kadar sonra yumuşak iniş. Çizelgedeki sabitler (`PULSES`, `SHAKES`, `FALLS`, `RINGS`) ses betiğinde aynen yinelenir; değişirse ikisi birlikte.
+- Hassas an (ölümü temenni, 19:23): ayet metni olarak, tefsirdeki bağlamıyla ver; yalnız metinsel gözlem ekle ("sonraki âyet: üzülme"), yorum ve çağrı ekleme. Tefsir İngilizce okunduysa bölüm notunda "Arapça/basılı teyit" bayrağı açık kalır.
